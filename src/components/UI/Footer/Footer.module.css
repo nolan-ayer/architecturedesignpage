@@ -30,3 +30,12 @@
   margin: 6vh 4vw 2vh 4vw;
   padding: 0;
 }
+
+@media (orientation: portrait) {
+  .footerButton {
+    font-size: 2vh;
+  }
+  .footerCopywrite {
+    width: fit-content;
+  }
+}

@@ -16,12 +16,24 @@
 .headerSpan {
   color: rgba(0, 0, 0, 0.75);
   border-bottom: 1px solid rgba(0, 0, 0, 0.75);
-  padding: 0 0 1vw 0;
+  padding: 0 0 2vh 0;
 }
 
 .contentSpan {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  column-gap: 1vw;
+  column-gap: 2vh;
+}
+
+@media (orientation: portrait) {
+  .mainArticle {
+    width: 100%;
+  }
+  .contentSpan {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 2vh;
+    row-gap: 2vh;
+  }
 }

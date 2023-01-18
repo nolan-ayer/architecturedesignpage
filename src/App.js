@@ -1,10 +1,10 @@
 import { Route, Switch } from "react-router-dom";
 import "./App.css";
-import Layout from "./component/layout/Layout";
-import About from "./component/UI/About/About";
-import Home from "./component/UI/Home/Home";
-import Portfolio from "./component/UI/Portfolio/Portfolio";
-import Process from "./component/UI/Process/Process";
+import Layout from "./components/layout/Layout";
+import About from "./components/UI/About/About";
+import Home from "./components/UI/Home/Home";
+import Portfolio from "./components/UI/Portfolio/Portfolio";
+import Process from "./components/UI/Process/Process";
 
 function App() {
   return (

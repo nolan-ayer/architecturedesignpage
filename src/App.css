@@ -45,3 +45,13 @@
   color: white;
   text-decoration: none;
 }
+
+@media (orientation: portrait) {
+  .padded {
+    padding: 2.5vh;
+  }
+  .pageTitle {
+    font-size: 3vh;
+    margin: 0 0 1vh 0;
+  }
+}

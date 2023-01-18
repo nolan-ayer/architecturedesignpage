@@ -8,3 +8,10 @@
   font-size: 3.5vw;
   color: rgba(0, 0, 0, 0.75);
 }
+
+@media (orientation: portrait) {
+  .locationBanner {
+    font-size: 4vh;
+    padding: 2.5vh 2.5vh 0 2.5vh;
+  }
+}

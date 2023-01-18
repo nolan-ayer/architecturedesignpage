@@ -1,0 +1,45 @@
+.halfContainer {
+  width: 50%;
+}
+
+.nameContainer {
+  margin: 0 0 6vh 0;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  column-gap: 1vw;
+  padding: 0 0 6vh 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.75);
+}
+
+.listContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  column-gap: 1vw;
+  margin: 12vh 0 0 0;
+}
+
+@media (orientation: portrait) {
+  .halfContainer {
+    width: 100%;
+  }
+  .cardContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 2vh;
+    padding: 0 0 6vh 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.75);
+  }
+  .listContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 2vh;
+    margin: 12vh 0 0 0;
+  }
+}
