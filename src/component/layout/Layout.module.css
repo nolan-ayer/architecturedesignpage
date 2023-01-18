@@ -1,0 +1,10 @@
+.mainContainer {
+  justify-content: center;
+}
+
+.locationBanner {
+  display: flex;
+  padding: 2.5vw 2.5vw 0 2.5vw;
+  font-size: 3.5vw;
+  color: rgba(0, 0, 0, 0.75);
+}

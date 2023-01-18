@@ -1,0 +1,27 @@
+.mainArticle {
+  width: 50%;
+  margin: 0 0 6vh 0;
+}
+
+.majorContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6vh;
+}
+
+.image {
+  width: 100%;
+}
+
+.headerSpan {
+  color: rgba(0, 0, 0, 0.75);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.75);
+  padding: 0 0 1vw 0;
+}
+
+.contentSpan {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  column-gap: 1vw;
+}

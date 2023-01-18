@@ -1,0 +1,32 @@
+.footer {
+  background-color: rgb(80, 80, 80);
+  color: white;
+  padding: 2vh 0;
+}
+
+.footerList {
+  list-style: none;
+  margin: 0 4vw;
+  padding: 0;
+}
+
+.footerListItem {
+  margin: 2vh 0;
+}
+
+.footerButton {
+  font-family: "Barlow Condensed", sans-serif;
+  color: white;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1vw;
+}
+
+.footerCopywrite {
+  width: 50%;
+  margin: 6vh 4vw 2vh 4vw;
+  padding: 0;
+}

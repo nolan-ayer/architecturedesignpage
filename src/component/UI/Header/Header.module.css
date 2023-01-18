@@ -1,0 +1,69 @@
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(80, 80, 80);
+  height: 8vh;
+  padding: 0 4vw;
+}
+
+.navTitle {
+  font-family: "Bebas Neue", cursive;
+  color: white;
+  text-decoration: none;
+}
+
+.navTitle__selected {
+  font-family: "Bebas Neue", cursive;
+  color: white;
+  text-decoration: none;
+}
+
+.navTitle__selected:hover {
+  cursor: default;
+}
+
+.buttonList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navButton {
+  background-color: transparent;
+  margin: 1.5vw;
+  padding: 0 0 0.3vw 0;
+  text-decoration: none;
+  border: none;
+  border-bottom: 1px solid transparent;
+  outline: none;
+  color: white;
+}
+
+.navButton:hover {
+  cursor: pointer;
+  border-bottom: 1px solid white;
+  transform: none;
+  transition-timing-function: ease-in-out;
+  transition: 350ms;
+}
+
+.navButton__selected {
+  background-color: transparent;
+  margin: 1.5vw;
+  padding: 0 0 0.3vw 0;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.navButton__selected:hover {
+  cursor: default;
+}
