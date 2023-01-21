@@ -33,7 +33,7 @@ const Process = () => {
             </p>
             <nav>
               <Link to="" className="navLink-black">
-                {`>`} custom design process
+                {`> custom design process`}
               </Link>
             </nav>
           </div>
@@ -47,7 +47,7 @@ const Process = () => {
             </p>
             <nav>
               <Link to="" className="navLink-black">
-                {`>`} project plan and budget
+                {`> project plan and budget`}
               </Link>
             </nav>
           </div>
@@ -63,7 +63,7 @@ const Process = () => {
             </p>
             <nav>
               <Link to="" className="navLink-black">
-                {`>`} what's included
+                {`> what's included`}
               </Link>
             </nav>
           </div>
@@ -77,7 +77,7 @@ const Process = () => {
             </p>
             <nav>
               <Link to="" className="navLink-black">
-                {`>`} delivery and assembly
+                {`> delivery and assembly`}
               </Link>
             </nav>
           </div>

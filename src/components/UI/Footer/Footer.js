@@ -3,6 +3,7 @@ import styles from "./Footer.module.css";
 const Footer = () => {
   return (
     <section className={styles.footer}>
+      <div className="linedBreak" />
       <ul className={styles.footerList}>
         <li className={styles.footerListItem}>
           <button className={styles.footerButton}>Resources</button>

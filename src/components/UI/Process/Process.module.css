@@ -28,7 +28,8 @@
 
 @media (orientation: portrait) {
   .mainArticle {
-    width: 100%;
+    width: fit-content;
+    margin: 0;
   }
   .contentSpan {
     grid-template-columns: 1fr 1fr;

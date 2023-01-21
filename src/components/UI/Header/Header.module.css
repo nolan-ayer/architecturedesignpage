@@ -3,25 +3,45 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(80, 80, 80);
+  background-color: rgb(35, 35, 40);
   height: 8vh;
-  padding: 0 4vw;
+  padding: 1vw;
 }
 
 .navTitle {
+  font-size: 1.5vw;
   font-family: "Bebas Neue", cursive;
-  color: white;
+  color: transparent;
+  background-color: rgb(35, 35, 40);
   text-decoration: none;
+  padding: 1.5vw;
+  animation: effect 8s linear infinite;
 }
 
 .navTitle__selected {
+  font-size: 1.5vw;
   font-family: "Bebas Neue", cursive;
-  color: white;
+  color: transparent;
+  background-color: rgb(35, 35, 40);
   text-decoration: none;
+  padding: 1.5vw;
+  animation: effect 3s linear infinite;
 }
 
 .navTitle__selected:hover {
   cursor: default;
+}
+
+@keyframes effect {
+  0% {
+    background: radial-gradient(rgb(255, 137, 186), rgb(103, 207, 255));
+    -webkit-background-clip: text;
+  }
+
+  100% {
+    background: radial-gradient(rgb(103, 207, 255), rgb(255, 137, 186));
+    -webkit-background-clip: text;
+  }
 }
 
 .buttonList {
@@ -36,8 +56,8 @@
 
 .navButton {
   background-color: transparent;
-  margin: 1.5vw;
-  padding: 0 0 0.3vw 0;
+  margin: 1.5vw 1.5vw 1.5vw 1vw;
+  padding: 0;
   text-decoration: none;
   border: none;
   border-bottom: 1px solid transparent;
@@ -55,8 +75,8 @@
 
 .navButton__selected {
   background-color: transparent;
-  margin: 1.5vw;
-  padding: 0 0 0.3vw 0;
+  margin: 1.5vw 1.5vw 1.5vw 1vw;
+  padding: 0;
   text-decoration: none;
   border: none;
   outline: none;
@@ -66,4 +86,29 @@
 
 .navButton__selected:hover {
   cursor: default;
+}
+
+@media (orientation: portrait) {
+  .navContainer {
+    height: 8vh;
+    padding: 1vh 6vh;
+  }
+
+  .navTitle {
+    font-size: 2.5vh;
+    font-family: "Bebas Neue", cursive;
+    margin: 1.5vh;
+  }
+
+  .navTitle__selected {
+    font-size: 2.5vh;
+  }
+
+  .navButton {
+    margin: 1.5vh 1.5vh 1.5vh 1vh;
+  }
+
+  .navButton__selected {
+    margin: 1.5vh 1.5vh 1.5vh 1vh;
+  }
 }

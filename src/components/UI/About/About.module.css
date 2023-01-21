@@ -3,7 +3,7 @@
 }
 
 .nameContainer {
-  margin: 0 0 6vh 0;
+  margin: 0 0 2vw 0;
 }
 
 .cardContainer {
@@ -12,7 +12,7 @@
   grid-template-rows: 1fr;
   column-gap: 1vw;
   padding: 0 0 6vh 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.75);
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
 
 .listContainer {
@@ -20,7 +20,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   column-gap: 1vw;
-  margin: 12vh 0 0 0;
+  margin: 12vh 0;
 }
 
 @media (orientation: portrait) {
@@ -33,7 +33,7 @@
     grid-template-rows: 1fr;
     column-gap: 2vh;
     padding: 0 0 6vh 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.75);
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
   }
   .listContainer {
     display: grid;

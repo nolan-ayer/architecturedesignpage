@@ -4,6 +4,7 @@
 
 .pageTitle {
   font-size: 2vw;
+  font-weight: bold;
   margin: 0 0 1vw 0;
   color: rgba(0, 0, 0, 0.75);
 }
@@ -28,9 +29,13 @@
   text-decoration: none;
 }
 
+.navLink-black:hover {
+  color: rgba(0, 0, 0, 1);
+}
+
 .navLink-black__selected {
   font-family: "Bebas Neue", cursive;
-  color: rgba(0, 0, 0, 0.75);
+  color: rgba(0, 0, 0, 1);
   text-decoration: none;
 }
 
@@ -40,18 +45,63 @@
   text-decoration: none;
 }
 
+.navLink-white:hover {
+  color: white;
+}
+
 .navLink-white__selected {
   font-family: "Bebas Neue", cursive;
   color: white;
   text-decoration: none;
 }
 
+.submitButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin: 2vw 0 0 0;
+}
+
+.submitButton {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.5vw;
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.75);
+  border: none;
+  border-bottom: 1px solid transparent;
+  outline: none;
+  padding: 0;
+}
+
+.submitButton:hover {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 1);
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+  transition: 350ms;
+  transition-timing-function: ease-in-out;
+}
+
+.linedBreak {
+  margin: 5vw 0 0 0;
+  border-top: 1px solid rgba(255, 255, 255, 1);
+}
+
 @media (orientation: portrait) {
   .padded {
-    padding: 2.5vh;
+    padding: 7.5vh;
   }
   .pageTitle {
     font-size: 3vh;
     margin: 0 0 1vh 0;
+  }
+  .submitButtonContainer {
+    margin: 2vh 0 0 0;
+  }
+  .submitButton {
+    font-size: 2vh;
+  }
+
+  .linedBreak {
+    margin: 8vh 5vh 10.5vh 5vh;
   }
 }

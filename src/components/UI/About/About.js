@@ -54,62 +54,56 @@ const About = () => {
         </div>
       </span>
       <section className={styles.listContainer}>
-        <div>
-          <article className={styles.nameContainer}>
-            <h4>Gertrude Bones</h4>
-            <p className="friendlyText">Associate, Director of Design</p>
-          </article>
-          <article className={styles.nameContainer}>
-            <h4>Liam Chong</h4>
-            <p className="friendlyText">IT Director</p>
-          </article>
-          <article className={styles.nameContainer}>
-            <h4>Jimmy John</h4>
-            <p className="friendlyText">Sandwich Expert</p>
-          </article>
-          <article className={styles.nameContainer}>
-            <h4>Mike Myers</h4>
-            <p className="friendlyText">Resident XL Green Dude</p>
-          </article>
-        </div>
-        <div>
-          <article className={styles.nameContainer}>
-            <h4>Jim Crothers</h4>
-            <p className="friendlyText">Designer</p>
-          </article>
-          <article className={styles.nameContainer}>
-            <h4>Elise Leong</h4>
-            <p className="friendlyText">Architect</p>
-          </article>
-          <article className={styles.nameContainer}>
-            <h4>Jediah Nakayama</h4>
-            <p className="friendlyText">International Relations</p>
-          </article>
-          <article className={styles.nameContainer}>
-            <h4>Inga Chen</h4>
-            <p className="friendlyText">
-              International Marketing and Advertising
-            </p>
-          </article>
-        </div>
-        <div>
-          <article className={styles.nameContainer}>
-            <h4>Rob Smith</h4>
-            <p className="friendlyText">Sales Manager</p>
-          </article>
-          <article className={styles.nameContainer}>
-            <h4>Joffrey Baratheon</h4>
-            <p className="friendlyText">Tyrant King</p>
-          </article>
-          <article className={styles.nameContainer}>
-            <h4>Felix Gleeson</h4>
-            <p className="friendlyText">Social Media Coordinator</p>
-          </article>
-          <article className={styles.nameContainer}>
-            <h4>Mirai Kuriyama</h4>
-            <p className="friendlyText">Waifu</p>
-          </article>
-        </div>
+        <article className={styles.nameContainer}>
+          <h4>Gertrude Bones</h4>
+          <p className="friendlyText">Associate, Director of Design</p>
+        </article>
+        <article className={styles.nameContainer}>
+          <h4>Liam Chong</h4>
+          <p className="friendlyText">IT Director</p>
+        </article>
+        <article className={styles.nameContainer}>
+          <h4>Jimmy John</h4>
+          <p className="friendlyText">Sandwich Expert</p>
+        </article>
+        <article className={styles.nameContainer}>
+          <h4>Mike Myers</h4>
+          <p className="friendlyText">Resident XL Green Dude</p>
+        </article>
+        <article className={styles.nameContainer}>
+          <h4>Jim Crothers</h4>
+          <p className="friendlyText">Designer</p>
+        </article>
+        <article className={styles.nameContainer}>
+          <h4>Elise Leong</h4>
+          <p className="friendlyText">Architect</p>
+        </article>
+        <article className={styles.nameContainer}>
+          <h4>Jediah Nakayama</h4>
+          <p className="friendlyText">International Relations</p>
+        </article>
+        <article className={styles.nameContainer}>
+          <h4>Inga Chen</h4>
+          <p className="friendlyText">
+            International Marketing and Advertising
+          </p>
+        </article>
+        <article className={styles.nameContainer}>
+          <h4>Rob Smith</h4>
+          <p className="friendlyText">Sales Manager</p>
+        </article>
+        <article className={styles.nameContainer}>
+          <h4>Joffrey Baratheon</h4>
+          <p className="friendlyText">Tyrant King</p>
+        </article>
+        <article className={styles.nameContainer}>
+          <h4>Felix Gleeson</h4>
+          <p className="friendlyText">Social Media Coordinator</p>
+        </article>
+        <article className={styles.nameContainer}>
+          <h4>Mirai Kuriyama</h4>
+          <p className="friendlyText">Waifu</p>
+        </article>
       </section>
     </section>
   );

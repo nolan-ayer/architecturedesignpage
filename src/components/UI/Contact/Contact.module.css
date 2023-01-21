@@ -1,0 +1,58 @@
+.contactArticle {
+  width: 50%;
+}
+
+.contactForm {
+  padding: 0.5vw 0 2vw 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.inputContainer > label {
+  margin: 0.5vw 0;
+}
+
+.inputField {
+  font-size: 1vw;
+  width: calc(100% - 1.5vw - 2px);
+  height: 1.5vw;
+  padding: 0.25vw;
+  color: white;
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.textField {
+  font-size: 1vw;
+  width: calc(100% - 1.5vw - 2px);
+  height: 3vw;
+  padding: 0.25vw;
+  color: white;
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  resize: vertical;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.inputField:focus,
+.textField:focus {
+  border: 1px solid rgb(35, 35, 40);
+}
+
+@media (orientation: portrait) {
+  .inputContainer > label {
+    margin: 1vh 0;
+  }
+}

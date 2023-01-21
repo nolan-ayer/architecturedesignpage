@@ -2,6 +2,7 @@ import { Route, Switch } from "react-router-dom";
 import "./App.css";
 import Layout from "./components/layout/Layout";
 import About from "./components/UI/About/About";
+import Contact from "./components/UI/Contact/Contact";
 import Home from "./components/UI/Home/Home";
 import Portfolio from "./components/UI/Portfolio/Portfolio";
 import Process from "./components/UI/Process/Process";
@@ -20,9 +21,9 @@ function App() {
         <Route path="/about">
           <About />
         </Route>
-        {/* <Route path="/contact">
+        <Route path="/contact">
           <Contact />
-        </Route> */}
+        </Route>
         <Route path="/">
           <Home />
         </Route>
