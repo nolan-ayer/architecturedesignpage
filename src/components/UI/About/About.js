@@ -35,28 +35,28 @@ const About = () => {
           <img className="contentSpanImage" src={url} />
           <article className={styles.nameContainer}>
             <h4>Nolan Ayer</h4>
-            <p className="friendlyText">Creative Director</p>
+            <p className="friendlyText">CEO</p>
           </article>
         </div>
         <div>
           <img className="contentSpanImage" src={url} />
           <article className={styles.nameContainer}>
             <h4>Aolan Nyer</h4>
-            <p className="friendlyText">Interiors Director</p>
+            <p className="friendlyText">CFO</p>
           </article>
         </div>
         <div>
           <img className="contentSpanImage" src={url} />
           <article className={styles.nameContainer}>
             <h4>Naoyer Alan</h4>
-            <p className="friendlyText">Lead Engineer</p>
+            <p className="friendlyText">Lead Web Engineer</p>
           </article>
         </div>
       </span>
       <section className={styles.listContainer}>
         <article className={styles.nameContainer}>
           <h4>Gertrude Bones</h4>
-          <p className="friendlyText">Associate, Director of Design</p>
+          <p className="friendlyText">Security Skeleton</p>
         </article>
         <article className={styles.nameContainer}>
           <h4>Liam Chong</h4>

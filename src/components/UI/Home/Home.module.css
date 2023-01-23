@@ -19,15 +19,30 @@
 }
 
 .bannerTextPrimary {
-  font-size: 5vh;
+  font-size: 5vw;
   color: white;
   margin: 0 0 1vw 0;
 }
 
 .bannerTextSecondary {
   font-family: "Bebas Neue", cursive;
-  font-size: 2.5vh;
+  font-size: 2.5vw;
   color: white;
   margin: 0;
   text-decoration: none;
+}
+
+@media (orientation: portrait) {
+  .bannerTextContainer {
+    margin: 0 0 7.5vh 7.5vh;
+  }
+
+  .bannerTextPrimary {
+    font-size: 5vh;
+    margin: 0 0 1vh 0;
+  }
+
+  .bannerTextSecondary {
+    font-size: 2.5vh;
+  }
 }

@@ -12,34 +12,49 @@
   font-size: 1.5vw;
   font-family: "Bebas Neue", cursive;
   color: transparent;
-  background-color: rgb(35, 35, 40);
+  /* background-color: rgb(35, 35, 40); */
   text-decoration: none;
   padding: 1.5vw;
-  animation: effect 8s linear infinite;
+  animation: color-change 12s infinite linear;
 }
 
 .navTitle__selected {
   font-size: 1.5vw;
   font-family: "Bebas Neue", cursive;
   color: transparent;
-  background-color: rgb(35, 35, 40);
+  /* background-color: rgb(35, 35, 40); */
   text-decoration: none;
   padding: 1.5vw;
-  animation: effect 3s linear infinite;
+  animation: color-change 12s infinite linear;
 }
 
 .navTitle__selected:hover {
   cursor: default;
 }
 
-@keyframes effect {
+/* @keyframes effect {
   0% {
-    background: radial-gradient(rgb(255, 137, 186), rgb(103, 207, 255));
+    background: linear-gradient(rgb(255, 137, 186), rgb(103, 207, 255));
     -webkit-background-clip: text;
   }
 
   100% {
-    background: radial-gradient(rgb(103, 207, 255), rgb(255, 137, 186));
+    background: linear-gradient(rgb(103, 207, 255), rgb(255, 137, 186));
+    -webkit-background-clip: text;
+  }
+} */
+
+@keyframes color-change {
+  0% {
+    background: linear-gradient(rgb(160, 225, 255), rgb(255, 185, 214));
+    -webkit-background-clip: text;
+  }
+  50% {
+    background: linear-gradient(rgb(255, 185, 214), rgb(160, 225, 255));
+    -webkit-background-clip: text;
+  }
+  100% {
+    background: linear-gradient(rgb(160, 225, 255), rgb(255, 185, 214));
     -webkit-background-clip: text;
   }
 }

@@ -8,7 +8,6 @@ const Layout = (props) => {
   return (
     <>
       <Header />
-      {/* insert dynamic page name here as banner */}
       {window.location.pathname !== "/" && (
         <span className={styles.locationBanner}>
           {window.location.pathname}
