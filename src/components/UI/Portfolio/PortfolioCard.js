@@ -1,8 +1,18 @@
 import React, { useState } from "react";
 import styles from "./PortfolioCard.module.css";
 
-const PortfolioCard = ({ imgAlt, imgSrc, title, description }) => {
+const PortfolioCard = ({
+  description,
+  imgAlt,
+  imgSrc,
+  originalPage,
+  title,
+}) => {
   const [isHover, setIsHover] = useState(false);
+
+  const originPage = () => {
+    window.open(originalPage);
+  };
 
   return (
     <li
@@ -13,6 +23,7 @@ const PortfolioCard = ({ imgAlt, imgSrc, title, description }) => {
       onMouseOut={() => {
         setIsHover(false);
       }}
+      onClick={originPage}
     >
       <img className={styles.itemImage} alt={imgAlt} src={imgSrc} />
       <div className={!isHover ? "" : styles.itemImage__mouseOver} />

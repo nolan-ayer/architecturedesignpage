@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./Portfolio.module.css";
 import PortfolioCard from "./PortfolioCard";
 
@@ -12,6 +12,8 @@ const cardList = [
     imgAlt: "A stunning photo of some architecture",
     title: "sample title",
     description: "sample description",
+    originalPage:
+      "https://www.architecturaldigest.com/gallery/home-beautifully-blends-traditional-modern-japanese-architecture",
   },
   {
     key: 1,
@@ -20,14 +22,18 @@ const cardList = [
     imgAlt: "A stunning photo of some architecture",
     title: "sample title",
     description: "sample description",
+    originalPage:
+      "https://www.architecturaldigest.com/gallery/home-beautifully-blends-traditional-modern-japanese-architecture",
   },
   {
     key: 2,
     imgSrc:
-      "https://www.decorants.com/wp-content/uploads/2021/03/Modern-Japanese-House-Designs-to-Inspire-You.jpg",
+      "https://images.adsttc.com/media/images/6037/0ec7/f91c/8122/3000/03d3/slideshow/_FI_2_EXTERIOR_2.jpg?1614220985",
     imgAlt: "A stunning photo of some architecture",
     title: "sample title",
     description: "sample description",
+    originalPage:
+      "https://www.archdaily.com/957599/j-house-y0-design-architect/60370ec7f91c8122300003d3-j-house-y0-design-architect-photo",
   },
   {
     key: 3,
@@ -36,6 +42,8 @@ const cardList = [
     imgAlt: "A stunning photo of some architecture",
     title: "sample title",
     description: "sample description",
+    originalPage:
+      "https://www.architecturaldigest.com/gallery/home-beautifully-blends-traditional-modern-japanese-architecture",
   },
   {
     key: 4,
@@ -44,6 +52,8 @@ const cardList = [
     imgAlt: "A stunning photo of some architecture",
     title: "sample title",
     description: "sample description",
+    originalPage:
+      "https://www.dezeen.com/2017/12/30/takashi-okuno-arranges-hiiragis-house-around-a-decked-central-courtyard/",
   },
   {
     key: 5,
@@ -52,10 +62,15 @@ const cardList = [
     imgAlt: "A stunning photo of some architecture",
     title: "sample title",
     description: "sample description",
+    originalPage:
+      "https://www.houzz.com/photos/japanese-inspired-ranch-home-asian-exterior-denver-phvw-vp~55199082",
   },
 ];
 
 const Portfolio = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <ul className={styles.itemList}>
       {cardList.map((items) => {
@@ -66,6 +81,7 @@ const Portfolio = () => {
             imgAlt={items.imgAlt}
             title={items.title}
             description={items.description}
+            originalPage={items.originalPage}
           />
         );
       })}

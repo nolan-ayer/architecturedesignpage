@@ -4,8 +4,8 @@
   justify-content: space-between;
   align-items: center;
   background-color: rgb(35, 35, 40);
-  height: 8vh;
-  padding: 1vw;
+  height: 4vh;
+  padding: 2.5vw;
 }
 
 .navTitle {
@@ -14,7 +14,6 @@
   color: transparent;
   /* background-color: rgb(35, 35, 40); */
   text-decoration: none;
-  padding: 1.5vw;
   animation: color-change 12s infinite linear;
 }
 
@@ -24,25 +23,12 @@
   color: transparent;
   /* background-color: rgb(35, 35, 40); */
   text-decoration: none;
-  padding: 1.5vw;
   animation: color-change 12s infinite linear;
 }
 
 .navTitle__selected:hover {
   cursor: default;
 }
-
-/* @keyframes effect {
-  0% {
-    background: linear-gradient(rgb(255, 137, 186), rgb(103, 207, 255));
-    -webkit-background-clip: text;
-  }
-
-  100% {
-    background: linear-gradient(rgb(103, 207, 255), rgb(255, 137, 186));
-    -webkit-background-clip: text;
-  }
-} */
 
 @keyframes color-change {
   0% {
@@ -71,7 +57,7 @@
 
 .navButton {
   background-color: transparent;
-  margin: 1.5vw 1.5vw 1.5vw 1vw;
+  margin: 1.5vw 0 1.5vw 3vw;
   padding: 0;
   text-decoration: none;
   border: none;
@@ -90,7 +76,7 @@
 
 .navButton__selected {
   background-color: transparent;
-  margin: 1.5vw 1.5vw 1.5vw 1vw;
+  margin: 1.5vw 0 1.5vw 3vw;
   padding: 0;
   text-decoration: none;
   border: none;
@@ -106,13 +92,12 @@
 @media (orientation: portrait) {
   .navContainer {
     height: 8vh;
-    padding: 1vh 6vh;
+    padding: 1vh 7.5vh;
   }
 
   .navTitle {
     font-size: 2.5vh;
     font-family: "Bebas Neue", cursive;
-    margin: 1.5vh;
   }
 
   .navTitle__selected {
@@ -120,7 +105,7 @@
   }
 
   .navButton {
-    margin: 1.5vh 1.5vh 1.5vh 1vh;
+    margin: 1.5vh 0 1.5vh 3vh;
   }
 
   .navButton__selected {

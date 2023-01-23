@@ -1,6 +1,10 @@
+import { useEffect } from "react";
 import styles from "./About.module.css";
 
 const About = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const url =
     "https://s.yimg.com/uu/api/res/1.2/TT1JWVV4jlg4L2T.r41Dcg--~B/Zmk9ZmlsbDtoPTc1MDt3PTg3NTthcHBpZD15dGFjaHlvbg--/https://o.aolcdn.com/hss/storage/midas/92df8b0b2020b5204e4b989b58777249/204467160/pepe+the+frog.png.cf.jpg";
   return (

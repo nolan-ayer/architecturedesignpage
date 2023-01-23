@@ -1,7 +1,11 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import styles from "./Contact.module.css";
 
 const Contact = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const [enteredName, setEnteredName] = useState("");
   const enteredProjectLocation = useRef(null);
   const [enteredEmail, setEnteredEmail] = useState("");

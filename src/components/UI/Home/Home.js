@@ -1,7 +1,11 @@
-import { Link } from "react-router-dom";
+import { useEffect } from "react";
+import { Link, Redirect } from "react-router-dom";
 import styles from "./Home.module.css";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section>
       <div className={styles.banner}>
