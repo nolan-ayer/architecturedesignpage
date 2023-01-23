@@ -52,7 +52,20 @@
 }
 
 @media (orientation: portrait) {
+  .contactForm {
+    width: 100%;
+  }
+  .contactArticle {
+    width: 100%;
+  }
   .inputContainer > label {
     margin: 1vh 0;
+  }
+  .inputField {
+    height: 4vh;
+  }
+  .textField {
+    height: 10vh;
+    resize: none;
   }
 }

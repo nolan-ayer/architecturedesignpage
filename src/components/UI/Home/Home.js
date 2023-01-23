@@ -22,13 +22,13 @@ const Home = () => {
         </div>
       </div>
       <article className="padded">
-        <p className="friendlyText">
+        <p className="align-left">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat.
         </p>
-        <p>
+        <p className="align-left">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -54,13 +54,13 @@ const Home = () => {
         </div>
       </div>
       <article className="padded">
-        <p className="friendlyText">
+        <p className="align-left">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat.
         </p>
-        <p>
+        <p className="align-left">
           Etiam lobortis nec enim a congue. Donec id lectus nec nulla volutpat
           viverra. Donec sit amet turpis congue, placerat sapien sed, blandit
           lacus. Quisque aliquam feugiat justo, eu rutrum elit ornare sed. Proin
@@ -85,9 +85,9 @@ const Home = () => {
             get in touch
           </Link>
         </div>
-      </div>{" "}
+      </div>
       <article className="padded">
-        <p className="friendlyText">
+        <p className="align-left">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
           porttitor, turpis a tincidunt aliquet, ex nunc pretium orci, bibendum
           porta leo ligula ut eros. Mauris tortor dui, viverra in faucibus ac,
@@ -102,7 +102,7 @@ const Home = () => {
           sollicitudin diam mi. Morbi quis malesuada felis. Curabitur tempus
           vulputate elit nec eleifend.
         </p>
-        <p>
+        <p className="align-left">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
