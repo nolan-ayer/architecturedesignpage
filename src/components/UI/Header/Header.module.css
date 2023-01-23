@@ -57,7 +57,7 @@
 
 .navButton {
   background-color: transparent;
-  margin: 1.5vw 0 1.5vw 3vw;
+  margin: 1.5vw 0 1.5vw 1.5vw;
   padding: 0;
   text-decoration: none;
   border: none;
@@ -76,7 +76,7 @@
 
 .navButton__selected {
   background-color: transparent;
-  margin: 1.5vw 0 1.5vw 3vw;
+  margin: 1.5vw 0 1.5vw 1.5vw;
   padding: 0;
   text-decoration: none;
   border: none;
@@ -105,10 +105,10 @@
   }
 
   .navButton {
-    margin: 1.5vh 0 1.5vh 3vh;
+    margin: 1.5vh 0 1.5vh 1.5vh;
   }
 
   .navButton__selected {
-    margin: 1.5vh 1.5vh 1.5vh 1vh;
+    margin: 1.5vh 0 1.5vh 1.5vh;
   }
 }

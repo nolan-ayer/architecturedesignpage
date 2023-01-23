@@ -10,7 +10,7 @@ const PortfolioCard = ({
 }) => {
   const [isHover, setIsHover] = useState(false);
 
-  const originPage = () => {
+  const loadOrigin = () => {
     window.open(originalPage);
   };
 
@@ -23,7 +23,7 @@ const PortfolioCard = ({
       onMouseOut={() => {
         setIsHover(false);
       }}
-      onClick={originPage}
+      onClick={loadOrigin}
     >
       <img className={styles.itemImage} alt={imgAlt} src={imgSrc} />
       <div className={!isHover ? "" : styles.itemImage__mouseOver} />
