@@ -8,6 +8,8 @@ const Process = () => {
   }, []);
   const url =
     "https://s.yimg.com/uu/api/res/1.2/TT1JWVV4jlg4L2T.r41Dcg--~B/Zmk9ZmlsbDtoPTc1MDt3PTg3NTthcHBpZD15dGFjaHlvbg--/https://o.aolcdn.com/hss/storage/midas/92df8b0b2020b5204e4b989b58777249/204467160/pepe+the+frog.png.cf.jpg";
+  const alt =
+    "Partway through the process of building a home with Fake Company";
   return (
     <section className="padded">
       <article className={styles.mainArticle}>
@@ -22,13 +24,13 @@ const Process = () => {
           volutpat, non tempus enim maximus. Nunc volutpat in neque ut interdum.
           Quisque scelerisque blandit dui.
         </p>
-        <img className="contentSpanImage" src={url} />
+        <img className="contentSpanImage" src={url} alt={alt} />
       </article>
       <span className={styles.majorContainer}>
         <h4 className={styles.headerSpan}>Our process</h4>
         <span className={styles.contentSpan}>
           <div>
-            <img className="contentSpanImage" src={url} />
+            <img className="contentSpanImage" src={url} alt={alt} />
             <h4 className={styles.headerSpan}>Your vision becomes a design</h4>
             <p className="friendlyText">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
@@ -42,7 +44,7 @@ const Process = () => {
             </nav>
           </div>
           <div>
-            <img className="contentSpanImage" src={url} />
+            <img className="contentSpanImage" src={url} alt={alt} />
             <h4 className={styles.headerSpan}>Predictability of cost</h4>
             <p className="friendlyText">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
@@ -56,7 +58,7 @@ const Process = () => {
             </nav>
           </div>
           <div>
-            <img className="contentSpanImage" src={url} />
+            <img className="contentSpanImage" src={url} alt={alt} />
             <h4 className={styles.headerSpan}>How systems-built works</h4>
             <p className="friendlyText">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
@@ -72,7 +74,7 @@ const Process = () => {
             </nav>
           </div>
           <div>
-            <img className="contentSpanImage" src={url} />
+            <img className="contentSpanImage" src={url} alt={alt} />
             <h4 className={styles.headerSpan}>Build your home</h4>
             <p className="friendlyText">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
@@ -90,18 +92,18 @@ const Process = () => {
       <span className={styles.majorContainer}>
         <h4 className={styles.headerSpan}>Process articles</h4>
         <span className={styles.contentSpan}>
-          <div>
-            <img className="contentSpanImage" src={url} />
+          <Link className="navLink-black" to="/">
+            <img className="contentSpanImage" src={url} alt={alt} />
             <h4 className="textSpan">Universal design is a good design</h4>
-          </div>
-          <div>
-            <img className="contentSpanImage" src={url} />
+          </Link>
+          <Link className="navLink-black" to="/">
+            <img className="contentSpanImage" src={url} alt={alt} />
             <h4 className="textSpan">Why we use prefab panels</h4>
-          </div>
-          <div>
-            <img className="contentSpanImage" src={url} />
+          </Link>
+          <Link className="navLink-black" to="/">
+            <img className="contentSpanImage" src={url} alt={alt} />
             <h4 className="textSpan">Your home evolves as we do</h4>
-          </div>
+          </Link>
         </span>
       </span>
     </section>

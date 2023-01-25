@@ -7,14 +7,17 @@ const Contact = () => {
   }, []);
 
   const [enteredName, setEnteredName] = useState("");
-  const enteredProjectLocation = useRef(null);
+  const [enteredCompany, setEnteredCompany] = useState("");
   const [enteredEmail, setEnteredEmail] = useState("");
   const enteredPhoneNumber = useRef(null);
-  const enteredAddress = useRef(null);
+  const enteredDetails = useRef(null);
   const enteredNote = useRef(null);
 
   const nameChangeHandler = (event) => {
     setEnteredName(event.target.value);
+  };
+  const companyChangeHandler = (event) => {
+    setEnteredCompany(event.target.value);
   };
   const emailChangeHandler = (event) => {
     setEnteredEmail(event.target.value);
@@ -22,19 +25,50 @@ const Contact = () => {
 
   const resetHandler = () => {
     setEnteredName("");
-    enteredProjectLocation.current.value = null;
+    setEnteredCompany("");
     setEnteredEmail("");
     enteredPhoneNumber.current.value = null;
-    enteredAddress.current.value = null;
+    enteredDetails.current.value = null;
     enteredNote.current.value = null;
   };
 
+  async function postData() {
+    const formData = {
+      name: enteredName,
+      company: enteredCompany,
+      email: enteredEmail,
+      phone: enteredPhoneNumber.current.value,
+      details: enteredDetails.current.value,
+      note: enteredNote.current.value,
+    };
+    const response = await fetch(
+      `https://dnd-tracker-d4735-default-rtdb.firebaseio.com/workInquiries.json`,
+      {
+        method: "POST",
+        body: JSON.stringify(formData),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
+    await response.json();
+    if (response.ok) {
+      alert(
+        "Thank you for contacting me - I'll be reaching out to you shortly!"
+      );
+    } else {
+      alert(
+        "Something seems to have gone wrong. Please reload the page and try again."
+      );
+    }
+  }
+
   const submitHandler = (event) => {
     event.preventDefault();
-    if (!enteredName || !enteredEmail) {
+    if (!enteredName || !enteredCompany || !enteredEmail) {
       alert("Please fill out all entries marked by an asterisk*");
     } else {
-      //form submission
+      postData();
       resetHandler();
     }
   };
@@ -46,10 +80,10 @@ const Contact = () => {
           Making dummy sites is fun and all, but I'd rather be making real sites
           for you!
         </p>
-        <p className="friendlyText">Email: FakeCompanyName@dontemailthis.com</p>
-        <p className="friendlyText">{`Phone: 000-000-0000`}</p>
-        <p>999 Some Street, #256</p>
-        <p className="friendlyText">Some City, WA 00000</p>
+        <p>
+          To talk business, please fill out the form below and I will get back
+          to you at my earliest convenience.
+        </p>
       </article>
       <form className={styles.contactForm} onSubmit={submitHandler}>
         <span className={styles.inputContainer}>
@@ -61,8 +95,12 @@ const Contact = () => {
           />
         </span>
         <span className={styles.inputContainer}>
-          <label>Project Location</label>
-          <input className={styles.inputField} ref={enteredProjectLocation} />
+          <label>Company Name *</label>
+          <input
+            className={styles.inputField}
+            value={enteredCompany}
+            onChange={companyChangeHandler}
+          />
         </span>
         <span className={styles.inputContainer}>
           <label>Email *</label>
@@ -77,11 +115,11 @@ const Contact = () => {
           <input className={styles.inputField} ref={enteredPhoneNumber} />
         </span>
         <span className={styles.inputContainer}>
-          <label>{`Current Address (Include City, State, and ZIP)`}</label>
-          <textarea className={styles.textField} ref={enteredAddress} />
+          <label>Job Title/Brief Description</label>
+          <input className={styles.inputField} ref={enteredDetails} />
         </span>
         <span className={styles.inputContainer}>
-          <label>{`Notes (tell us about your project or inquiry)`}</label>
+          <label>{`Notes (tell me about your team, company, etc)`}</label>
           <textarea className={styles.textField} ref={enteredNote} />
         </span>
         <nav className="submitButtonContainer">

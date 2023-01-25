@@ -13,6 +13,14 @@ code {
   font-family: "Sofia Sans Semi Condensed", sans-serif;
 }
 
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
 p {
   margin: 0;
   color: rgba(0, 0, 0, 0.75);
@@ -27,5 +35,14 @@ textarea {
 @media (orientation: portrait) {
   body {
     font-size: 2vh;
+  }
+}
+
+@media (orientation: portrait) and (width < 800px) {
+  body {
+    font-size: 1.5vh;
+  }
+  p {
+    font-size: 1.5vh;
   }
 }

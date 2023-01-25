@@ -7,6 +7,7 @@ const About = () => {
   }, []);
   const url =
     "https://s.yimg.com/uu/api/res/1.2/TT1JWVV4jlg4L2T.r41Dcg--~B/Zmk9ZmlsbDtoPTc1MDt3PTg3NTthcHBpZD15dGFjaHlvbg--/https://o.aolcdn.com/hss/storage/midas/92df8b0b2020b5204e4b989b58777249/204467160/pepe+the+frog.png.cf.jpg";
+  const alt = "Friendly face of someone working at Fake Company";
   return (
     <section className="padded">
       <article className={styles.halfContainer}>
@@ -36,77 +37,77 @@ const About = () => {
       </article>
       <span className={styles.cardContainer}>
         <div>
-          <img className="contentSpanImage" src={url} />
+          <img className="contentSpanImage" src={url} alt={alt} />
           <article className={styles.nameContainer}>
             <h4>Nolan Ayer</h4>
-            <p className="friendlyText">CEO</p>
+            <p className="align-center">CEO</p>
           </article>
         </div>
         <div>
-          <img className="contentSpanImage" src={url} />
+          <img className="contentSpanImage" src={url} alt={alt} />
           <article className={styles.nameContainer}>
             <h4>Aolan Nyer</h4>
-            <p className="friendlyText">CFO</p>
+            <p className="align-center">CFO</p>
           </article>
         </div>
         <div>
-          <img className="contentSpanImage" src={url} />
+          <img className="contentSpanImage" src={url} alt={alt} />
           <article className={styles.nameContainer}>
             <h4>Naoyer Alan</h4>
-            <p className="friendlyText">Lead Web Engineer</p>
+            <p className="align-center">Lead Web Engineer</p>
           </article>
         </div>
       </span>
       <section className={styles.listContainer}>
         <article className={styles.nameContainer}>
           <h4>Gertrude Bones</h4>
-          <p className="friendlyText">Security Skeleton</p>
+          <p className="align-center">Security Skeleton</p>
         </article>
         <article className={styles.nameContainer}>
           <h4>Liam Chong</h4>
-          <p className="friendlyText">IT Director</p>
+          <p className="align-center">IT Director</p>
         </article>
         <article className={styles.nameContainer}>
           <h4>Jimmy John</h4>
-          <p className="friendlyText">Sandwich Expert</p>
+          <p className="align-center">Sandwich Expert</p>
         </article>
         <article className={styles.nameContainer}>
           <h4>Mike Myers</h4>
-          <p className="friendlyText">Resident XL Green Dude</p>
+          <p className="align-center">Resident XL Green Dude</p>
         </article>
         <article className={styles.nameContainer}>
           <h4>Jim Crothers</h4>
-          <p className="friendlyText">Designer</p>
+          <p className="align-center">Designer</p>
         </article>
         <article className={styles.nameContainer}>
           <h4>Elise Leong</h4>
-          <p className="friendlyText">Architect</p>
+          <p className="align-center">Architect</p>
         </article>
         <article className={styles.nameContainer}>
           <h4>Jediah Nakayama</h4>
-          <p className="friendlyText">International Relations</p>
+          <p className="align-center">International Relations</p>
         </article>
         <article className={styles.nameContainer}>
           <h4>Inga Chen</h4>
-          <p className="friendlyText">
+          <p className="align-center">
             International Marketing and Advertising
           </p>
         </article>
         <article className={styles.nameContainer}>
           <h4>Rob Smith</h4>
-          <p className="friendlyText">Sales Manager</p>
+          <p className="align-center">Sales Manager</p>
         </article>
         <article className={styles.nameContainer}>
           <h4>Joffrey Baratheon</h4>
-          <p className="friendlyText">Tyrant King</p>
+          <p className="align-center">Tyrant King</p>
         </article>
         <article className={styles.nameContainer}>
           <h4>Felix Gleeson</h4>
-          <p className="friendlyText">Social Media Coordinator</p>
+          <p className="align-center">Social Media Coordinator</p>
         </article>
         <article className={styles.nameContainer}>
           <h4>Mirai Kuriyama</h4>
-          <p className="friendlyText">Waifu</p>
+          <p className="align-center">Waifu</p>
         </article>
       </section>
     </section>

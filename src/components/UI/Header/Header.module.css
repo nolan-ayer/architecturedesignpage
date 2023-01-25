@@ -9,28 +9,30 @@
 }
 
 .navTitle {
-  font-size: 1.5vw;
+  font-size: 2vw;
   font-family: "Bebas Neue", cursive;
-  color: transparent;
+  color: white;
+  /* color: transparent; */
   /* background-color: rgb(35, 35, 40); */
   text-decoration: none;
-  animation: color-change 12s infinite linear;
+  /* animation: color-change 12s infinite linear; */
 }
 
 .navTitle__selected {
-  font-size: 1.5vw;
+  font-size: 2vw;
   font-family: "Bebas Neue", cursive;
-  color: transparent;
+  color: white;
+  /* color: transparent; */
   /* background-color: rgb(35, 35, 40); */
   text-decoration: none;
-  animation: color-change 12s infinite linear;
+  /* animation: color-change 12s infinite linear; */
 }
 
 .navTitle__selected:hover {
   cursor: default;
 }
 
-@keyframes color-change {
+/* @keyframes color-change {
   0% {
     background: linear-gradient(rgb(160, 225, 255), rgb(255, 185, 214));
     -webkit-background-clip: text;
@@ -43,7 +45,7 @@
     background: linear-gradient(rgb(160, 225, 255), rgb(255, 185, 214));
     -webkit-background-clip: text;
   }
-}
+} */
 
 .buttonList {
   display: flex;
@@ -91,6 +93,7 @@
 
 @media (orientation: portrait) {
   .navContainer {
+    justify-content: space-between;
     height: 8vh;
     padding: 1vh 7.5vh;
   }
@@ -109,6 +112,27 @@
   }
 
   .navButton__selected {
+    margin: 1.5vh 0 1.5vh 1.5vh;
+  }
+}
+
+@media (orientation: portrait) and (width < 800px) {
+  .navContainer {
+    padding: 1vh 2.5vh;
+  }
+  .navTitle {
+    font-size: 1.5vh;
+    font-family: "Bebas Neue", cursive;
+  }
+  .navTitle__selected {
+    font-size: 1.5vh;
+  }
+  .navButton {
+    font-size: 1vh;
+    margin: 1.5vh 0 1.5vh 1.5vh;
+  }
+  .navButton__selected {
+    font-size: 1vh;
     margin: 1.5vh 0 1.5vh 1.5vh;
   }
 }

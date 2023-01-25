@@ -14,7 +14,13 @@
   .itemList {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    row-gap: 5vh;
+    row-gap: auto;
     padding: 7.5vh;
+  }
+}
+
+@media (orientation: portrait) and (width < 800px) {
+  .itemList {
+    padding: 2.5vh;
   }
 }

@@ -13,10 +13,16 @@
   list-style: none;
   margin: 7.5vw 0 0 0;
   padding: 0;
+  height: 40%;
+  justify-content: space-between;
 }
 
 .footerListItem {
-  margin: 0 0 2vw 0;
+  margin: 0 0 auto 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  height: 3.5vw;
 }
 
 .footerButton {

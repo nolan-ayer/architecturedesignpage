@@ -25,8 +25,10 @@ const PortfolioCard = ({
       }}
       onClick={loadOrigin}
     >
-      <img className={styles.itemImage} alt={imgAlt} src={imgSrc} />
-      <div className={!isHover ? "" : styles.itemImage__mouseOver} />
+      <div className={styles.imageContainer}>
+        <img className={styles.itemImage} alt={imgAlt} src={imgSrc} />
+        <div className={!isHover ? "" : styles.itemImage__mouseOver} />
+      </div>
       <section className={styles.itemTextContainer}>
         <article
           className={!isHover ? styles.itemTitle : styles.itemTitle__mouseOver}

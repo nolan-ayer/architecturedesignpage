@@ -25,7 +25,7 @@
   font-size: 1vw;
   width: calc(100% - 1.5vw - 2px);
   height: 1.5vw;
-  padding: 0.25vw;
+  padding: 0.5vw 1vw;
   color: white;
   outline: none;
   border: 1px solid transparent;
@@ -37,7 +37,7 @@
   font-size: 1vw;
   width: calc(100% - 1.5vw - 2px);
   height: 3vw;
-  padding: 0.25vw;
+  padding: 0.5vw 1vw;
   color: white;
   outline: none;
   border: 1px solid transparent;
@@ -62,10 +62,16 @@
     margin: 1vh 0;
   }
   .inputField {
+    padding: 0.5vh 1.5vh;
+    width: calc(100% - 3.5vh);
     height: 4vh;
+    font-size: 2vh;
   }
   .textField {
+    padding: 0.5vh 1.5vh;
+    width: calc(100% - 3.5vh);
     height: 10vh;
     resize: none;
+    font-size: 2vh;
   }
 }

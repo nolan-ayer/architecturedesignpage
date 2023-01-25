@@ -6,7 +6,7 @@
 
 .bannerImage {
   width: 100%;
-  height: calc(100vh - 12vh - 2vh);
+  height: calc(100vh - 10vh);
   object-fit: cover;
   margin: 0;
 }
@@ -22,6 +22,7 @@
   font-size: 4vw;
   color: white;
   margin: 0 0 1vw 0;
+  overflow-wrap: break-word;
 }
 
 .bannerTextSecondary {
@@ -39,15 +40,19 @@
 
 @media (orientation: portrait) {
   .bannerTextContainer {
-    margin: 0 0 7.5vh 7.5vh;
+    width: calc(100% - 15vh);
+    text-align: center;
+    margin: 7.5vh;
   }
 
   .bannerTextPrimary {
+    text-align: center;
     font-size: 5vh;
     margin: 0 0 1vh 0;
   }
 
   .bannerTextSecondary {
+    text-align: center;
     font-size: 2.5vh;
   }
 }
