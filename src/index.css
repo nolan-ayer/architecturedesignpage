@@ -7,10 +7,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 1vw;
+  font-weight: normal;
 }
 
 code {
   font-family: "Sofia Sans Semi Condensed", sans-serif;
+}
+
+h4 {
+  font-weight: normal;
 }
 
 li {
@@ -25,6 +30,7 @@ p {
   margin: 0;
   color: rgba(0, 0, 0, 0.75);
   overflow-wrap: break-word;
+  font-weight: normal;
 }
 
 input,

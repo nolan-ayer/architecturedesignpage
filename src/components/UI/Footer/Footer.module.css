@@ -40,6 +40,7 @@
   display: flex;
   height: 100%;
   width: 50%;
+  font-size: 1.5vh;
   align-items: flex-end;
   margin: 7.5vw 0 5vw 0;
 }
@@ -61,5 +62,18 @@
   }
   .footerListItem {
     margin: 0 0 4vh 0;
+  }
+}
+
+@media (orientation: portrait) and (width < 800px) {
+  .footerButton {
+    font-size: 1.5vh;
+  }
+  .footerList {
+    margin: 2.5vh 0;
+  }
+  .footerCopywrite {
+    width: fit-content;
+    margin: 10.5vh 0 5.5vh 0;
   }
 }

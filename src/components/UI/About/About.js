@@ -37,24 +37,42 @@ const About = () => {
       </article>
       <span className={styles.cardContainer}>
         <div>
-          <img className="contentSpanImage" src={url} alt={alt} />
+          <img
+            className={styles.portraitImage}
+            src={
+              "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            }
+            alt={alt}
+          />
           <article className={styles.nameContainer}>
             <h4>Nolan Ayer</h4>
             <p className="align-center">CEO</p>
           </article>
         </div>
         <div>
-          <img className="contentSpanImage" src={url} alt={alt} />
+          <img
+            className={styles.portraitImage}
+            src={
+              "https://images.pexels.com/photos/10031556/pexels-photo-10031556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            }
+            alt={alt}
+          />
           <article className={styles.nameContainer}>
             <h4>Aolan Nyer</h4>
             <p className="align-center">CFO</p>
           </article>
         </div>
         <div>
-          <img className="contentSpanImage" src={url} alt={alt} />
+          <img
+            className={styles.portraitImage}
+            src={
+              "https://images.pexels.com/photos/8441881/pexels-photo-8441881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            }
+            alt={alt}
+          />
           <article className={styles.nameContainer}>
             <h4>Naoyer Alan</h4>
-            <p className="align-center">Lead Web Engineer</p>
+            <p className="align-center">Development Manager</p>
           </article>
         </div>
       </span>

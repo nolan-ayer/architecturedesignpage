@@ -8,62 +8,61 @@ const cardList = [
   {
     key: 0,
     imgSrc:
-      "https://media.architecturaldigest.com/photos/5eb9a47056ef867fb13cb69a/master/w_2000,h_1333,c_limit/2%20T3_028.jpg",
+      "https://images.pexels.com/photos/4087904/pexels-photo-4087904.jpeg?",
     imgAlt: "A stunning photo of some architecture",
     title: "Kyoto",
     description: "Features tons of natural light and tatami floors",
     originalPage:
-      "https://www.architecturaldigest.com/gallery/home-beautifully-blends-traditional-modern-japanese-architecture",
+      "https://www.pexels.com/photo/blooming-sakura-in-yard-of-japanese-house-4087904/",
   },
   {
     key: 1,
     imgSrc:
-      "https://media.architecturaldigest.com/photos/5eb9a48327436b96d524c1b3/master/w_2000,h_1332,c_limit/7%20T3_001.jpg",
+      "https://images.pexels.com/photos/4087899/pexels-photo-4087899.jpeg?",
     imgAlt: "A stunning photo of some architecture",
     title: "Tokyo",
     description: "Compact footprint with impressively spacious interior",
     originalPage:
-      "https://www.architecturaldigest.com/gallery/home-beautifully-blends-traditional-modern-japanese-architecture",
+      "https://www.pexels.com/photo/green-garden-around-old-traditional-oriental-temple-4087899/",
   },
   {
     key: 2,
     imgSrc:
-      "https://images.adsttc.com/media/images/6037/0ec7/f91c/8122/3000/03d3/slideshow/_FI_2_EXTERIOR_2.jpg?1614220985",
+      "https://images.pexels.com/photos/4679108/pexels-photo-4679108.jpeg?",
     imgAlt: "A stunning photo of some architecture",
     title: "Yokohama",
     description: "Japanese style with western influence",
     originalPage:
-      "https://www.archdaily.com/957599/j-house-y0-design-architect/60370ec7f91c8122300003d3-j-house-y0-design-architect-photo",
+      "https://www.pexels.com/photo/black-traditional-house-surrounded-with-green-plants-4679108/",
   },
   {
     key: 3,
     imgSrc:
-      "https://media.architecturaldigest.com/photos/5eb9a46a4272e32baf9445c0/master/pass/1%20T3_023.jpg",
+      "https://images.pexels.com/photos/7526814/pexels-photo-7526814.jpeg?",
     imgAlt: "A stunning photo of some architecture",
     title: "Hiroshima",
     description: "Earthquake resistant concrete foundation",
     originalPage:
-      "https://www.architecturaldigest.com/gallery/home-beautifully-blends-traditional-modern-japanese-architecture",
+      "https://www.pexels.com/photo/street-with-wooden-houses-7526814/",
   },
   {
     key: 4,
     imgSrc:
-      "https://static.dezeen.com/uploads/2017/12/house-of-holly-osmanthus-takashi-okuno-architecture-residential-japan_dezeen_hero-1.jpg",
+      "https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg?",
     imgAlt: "A stunning photo of some architecture",
     title: "Aichi",
     description: "Designed and manufactured by Toyota",
     originalPage:
-      "https://www.dezeen.com/2017/12/30/takashi-okuno-arranges-hiiragis-house-around-a-decked-central-courtyard/",
+      "https://www.pexels.com/photo/sun-piercing-of-brown-concrete-house-near-sea-1732414/",
   },
   {
     key: 5,
-    imgSrc:
-      "https://st.hzcdn.com/simgs/pictures/exteriors/japanese-inspired-ranch-home-ra-nelson-llc-img~c1415a6007433a7b_14-4081-1-af35eba.jpg",
+    imgSrc: "https://images.pexels.com/photos/127578/pexels-photo-127578.jpeg?",
     imgAlt: "A stunning photo of some architecture",
     title: "Nagano",
     description: "Rustic meets modern",
     originalPage:
-      "https://www.houzz.com/photos/japanese-inspired-ranch-home-asian-exterior-denver-phvw-vp~55199082",
+      "https://www.pexels.com/photo/green-leaf-tree-near-white-and-brown-shack-127578/",
   },
 ];
 

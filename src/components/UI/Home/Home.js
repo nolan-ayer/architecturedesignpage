@@ -12,7 +12,7 @@ const Home = () => {
         <img
           className={styles.bannerImage}
           alt="A commercial construction by Fake Company Name"
-          src="https://media.architecturaldigest.com/photos/5eb9a47056ef867fb13cb69a/master/w_2000,h_1333,c_limit/2%20T3_028.jpg"
+          src="https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg?"
         />
         <div className={styles.bannerTextContainer}>
           <h4 className={styles.bannerTextPrimary}>This way home</h4>
@@ -42,7 +42,7 @@ const Home = () => {
         <img
           className={styles.bannerImage}
           alt="Interior renovation by Fake Company Name"
-          src="http://cdn.cnn.com/cnnnext/dam/assets/181115161449-11-japanese-ryokans-nishimuraya.jpg"
+          src="https://images.pexels.com/photos/210547/pexels-photo-210547.jpeg?"
         />
         <div className={styles.bannerTextContainer}>
           <h4 className={styles.bannerTextPrimary}>
@@ -75,7 +75,7 @@ const Home = () => {
         <img
           className={styles.bannerImage}
           alt="An interior residential construction by My Fake Architecture Company"
-          src="https://media.architecturaldigest.com/photos/5eb9a47a56ef867fb13cb69e/master/w_2000,h_1333,c_limit/5%20T3_055.jpg"
+          src="https://images.pexels.com/photos/6249543/pexels-photo-6249543.jpeg?"
         />
         <div className={styles.bannerTextContainer}>
           <h4 className={styles.bannerTextPrimary}>
