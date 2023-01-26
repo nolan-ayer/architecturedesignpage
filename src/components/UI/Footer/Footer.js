@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./Footer.module.css";
 
 const Footer = () => {
@@ -6,19 +7,29 @@ const Footer = () => {
       <div className="linedBreak" />
       <ul className={styles.footerList}>
         <li className={styles.footerListItem}>
-          <button className={styles.footerButton}>Resources</button>
+          <Link to="/contact" className={styles.footerLink}>
+            Resources
+          </Link>
         </li>
         <li className={styles.footerListItem}>
-          <button className={styles.footerButton}>Press</button>
+          <Link to="/contact" className={styles.footerLink}>
+            Press
+          </Link>
         </li>
         <li className={styles.footerListItem}>
-          <button className={styles.footerButton}>Where we work</button>
+          <Link to="/contact" className={styles.footerLink}>
+            Where we work
+          </Link>
         </li>
         <li className={styles.footerListItem}>
-          <button className={styles.footerButton}>Careers</button>
+          <Link to="/contact" className={styles.footerLink}>
+            Careers
+          </Link>
         </li>
         <li className={styles.footerListItem}>
-          <button className={styles.footerButton}>Contact</button>
+          <Link to="/contact" className={styles.footerLink}>
+            Contact
+          </Link>
         </li>
       </ul>
       <article className={styles.footerCopywrite}>
