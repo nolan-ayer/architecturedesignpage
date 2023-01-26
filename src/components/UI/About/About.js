@@ -1,6 +1,25 @@
 import { useEffect } from "react";
 import styles from "./About.module.css";
+import Exec from "./Exec";
 import VIP from "./VIP";
+
+const execArray = [
+  {
+    name: "Nolan Ayer",
+    title: "CEO",
+    img: "https://images.pexels.com/photos/10031556/pexels-photo-10031556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  },
+  {
+    name: "Aolan Nyer",
+    title: "CFO",
+    img: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  },
+  {
+    name: "Naoyer Alan",
+    title: "Head of Development",
+    img: "https://images.pexels.com/photos/8441881/pexels-photo-8441881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  },
+];
 
 const vipArray = [
   { name: "Mirai Kuriyama", title: "Executive Designer" },
@@ -25,7 +44,6 @@ const About = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  const alt = "Friendly face of someone working at Fake Company";
   return (
     <section className="padded">
       <article className={styles.halfContainer}>
@@ -54,45 +72,16 @@ const About = () => {
         </p>
       </article>
       <span className={styles.cardContainer}>
-        <div>
-          <img
-            className={styles.portraitImage}
-            src={
-              "https://images.pexels.com/photos/10031556/pexels-photo-10031556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            }
-            alt={alt}
-          />
-          <article className={styles.nameContainer}>
-            <h4>Nolan Ayer</h4>
-            <p className="align-center">CEO</p>
-          </article>
-        </div>
-        <div>
-          <img
-            className={styles.portraitImage}
-            src={
-              "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            }
-            alt={alt}
-          />
-          <article className={styles.nameContainer}>
-            <h4>Aolan Nyer</h4>
-            <p className="align-center">CFO</p>
-          </article>
-        </div>
-        <div>
-          <img
-            className={styles.portraitImage}
-            src={
-              "https://images.pexels.com/photos/8441881/pexels-photo-8441881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            }
-            alt={alt}
-          />
-          <article className={styles.nameContainer}>
-            <h4>Naoyer Alan</h4>
-            <p className="align-center">Head of Development</p>
-          </article>
-        </div>
+        {execArray.map((items) => {
+          return (
+            <Exec
+              key={items.key}
+              name={items.name}
+              title={items.title}
+              img={items.img}
+            />
+          );
+        })}
       </span>
       <section className={styles.listContainer}>
         {vipArray.map((items) => {

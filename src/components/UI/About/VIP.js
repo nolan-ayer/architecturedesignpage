@@ -1,4 +1,4 @@
-import styles from "./VIP.module.css";
+import styles from "./About.module.css";
 
 const VIP = ({ name, title }) => {
   return (
