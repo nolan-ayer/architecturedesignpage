@@ -1,5 +1,25 @@
 import { useEffect } from "react";
 import styles from "./About.module.css";
+import VIP from "./VIP";
+
+const vipArray = [
+  { name: "Mirai Kuriyama", title: "Executive Designer" },
+  { name: "Elise Leong", title: "Chief Architect" },
+  { name: "Rob Smith", title: "Design Consultant" },
+  { name: "Jim Crothers", title: "Tradesmaster" },
+  { name: "Jediah Nakayama", title: "International Relations" },
+  { name: "Inga Chen", title: "International Marketing and Advertising" },
+  { name: "Liam Chong", title: "IT Director" },
+  { name: "Felix Navidad", title: "Social Media Coordinator" },
+  { name: "Sterling Archer", title: "World's Greatest Spy" },
+  { name: "Golde Swordsmann", title: "Not the World's Greatest Spy" },
+  { name: "Mike Myers", title: "Shrek" },
+  { name: "Jimmy John", title: "Sammich Consultant" },
+  { name: "Gertrude Bones", title: "Security Skeleton" },
+  { name: "Clifford", title: "Big Red Dog" },
+  { name: "Seymour Duncan", title: "Music and Jingles" },
+  { name: "Anakin Skywalker", title: "Jedi Knight" },
+];
 
 const About = () => {
   useEffect(() => {
@@ -10,8 +30,8 @@ const About = () => {
     <section className="padded">
       <article className={styles.halfContainer}>
         <h3 className="pageTitle">
-          Fake Company Name is an an inspired designer of well equipped, modern
-          homes with Japanese flair.
+          Fake Company Name is an an inspired design team for well equipped,
+          modern homes with Japanese flair.
         </h3>
         <p className="friendlyText">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum
@@ -38,7 +58,7 @@ const About = () => {
           <img
             className={styles.portraitImage}
             src={
-              "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              "https://images.pexels.com/photos/10031556/pexels-photo-10031556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             }
             alt={alt}
           />
@@ -51,7 +71,7 @@ const About = () => {
           <img
             className={styles.portraitImage}
             src={
-              "https://images.pexels.com/photos/10031556/pexels-photo-10031556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             }
             alt={alt}
           />
@@ -70,61 +90,14 @@ const About = () => {
           />
           <article className={styles.nameContainer}>
             <h4>Naoyer Alan</h4>
-            <p className="align-center">Development Manager</p>
+            <p className="align-center">Head of Development</p>
           </article>
         </div>
       </span>
       <section className={styles.listContainer}>
-        <article className={styles.nameContainer}>
-          <h4>Gertrude Bones</h4>
-          <p className="align-center">Security Skeleton</p>
-        </article>
-        <article className={styles.nameContainer}>
-          <h4>Liam Chong</h4>
-          <p className="align-center">IT Director</p>
-        </article>
-        <article className={styles.nameContainer}>
-          <h4>Jimmy John</h4>
-          <p className="align-center">Sandwich Expert</p>
-        </article>
-        <article className={styles.nameContainer}>
-          <h4>Mike Myers</h4>
-          <p className="align-center">Resident XL Green Dude</p>
-        </article>
-        <article className={styles.nameContainer}>
-          <h4>Jim Crothers</h4>
-          <p className="align-center">Designer</p>
-        </article>
-        <article className={styles.nameContainer}>
-          <h4>Elise Leong</h4>
-          <p className="align-center">Architect</p>
-        </article>
-        <article className={styles.nameContainer}>
-          <h4>Jediah Nakayama</h4>
-          <p className="align-center">International Relations</p>
-        </article>
-        <article className={styles.nameContainer}>
-          <h4>Inga Chen</h4>
-          <p className="align-center">
-            International Marketing and Advertising
-          </p>
-        </article>
-        <article className={styles.nameContainer}>
-          <h4>Rob Smith</h4>
-          <p className="align-center">Sales Manager</p>
-        </article>
-        <article className={styles.nameContainer}>
-          <h4>Joffrey Baratheon</h4>
-          <p className="align-center">Tyrant King</p>
-        </article>
-        <article className={styles.nameContainer}>
-          <h4>Felix Gleeson</h4>
-          <p className="align-center">Social Media Coordinator</p>
-        </article>
-        <article className={styles.nameContainer}>
-          <h4>Mirai Kuriyama</h4>
-          <p className="align-center">Waifu</p>
-        </article>
+        {vipArray.map((items) => {
+          return <VIP key={items.key} name={items.name} title={items.title} />;
+        })}
       </section>
     </section>
   );

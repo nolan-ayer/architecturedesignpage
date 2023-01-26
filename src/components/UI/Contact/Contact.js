@@ -53,6 +53,7 @@ const Contact = () => {
     );
     await response.json();
     if (response.ok) {
+      //use context to trigger modal for pass/fail of form submission
       alert(
         "Thank you for contacting me - I'll be reaching out to you shortly!"
       );

@@ -14,7 +14,6 @@ function App() {
         <Route path="/portfolio">
           <Portfolio />
         </Route>
-
         <Route path="/process">
           <Process />
         </Route>

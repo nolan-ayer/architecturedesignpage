@@ -1,0 +1,8 @@
+.nameContainer {
+  margin: 0 0 2vw 0;
+  height: 12vh;
+}
+
+.nameContainer > h4 {
+  text-align: center;
+}
