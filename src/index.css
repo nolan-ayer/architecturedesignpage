@@ -6,7 +6,7 @@ body {
   font-family: "Sofia Sans Semi Condensed", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 1vw;
+  font-size: 1.75vmin;
   font-weight: normal;
 }
 
@@ -14,8 +14,16 @@ code {
   font-family: "Sofia Sans Semi Condensed", sans-serif;
 }
 
-h4 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-weight: normal;
+}
+
+h3 {
+  font-size: 6vmin;
 }
 
 li {
@@ -40,15 +48,24 @@ textarea {
 
 @media (orientation: portrait) {
   body {
-    font-size: 2vh;
+    font-size: 2vmin;
+  }
+  h3 {
+    font-size: 4vmin;
+  }
+  p {
+    font-size: 2vmax;
   }
 }
 
-@media (orientation: portrait) and (width < 800px) {
+@media (orientation: portrait) and (width < 800px), (width < 800px) {
   body {
-    font-size: 1.5vh;
+    font-size: 2vmax;
+  }
+  h3 {
+    font-size: 3vmax;
   }
   p {
-    font-size: 1.5vh;
+    font-size: 2vmax;
   }
 }

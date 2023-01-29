@@ -6,14 +6,28 @@ import styles from "./Layout.module.css";
 const Layout = (props) => {
   const location = useLocation();
 
+  const pageNames = ["Home", "About", "Contact", "Portfolio"];
+
+  const pageNameChecker = () => {
+    if (!window.location.pathname.includes(pageNames)) {
+      return (
+        <>
+          {window.location.pathname !== "/" && (
+            <span className={styles.locationBanner}>
+              {window.location.pathname}
+            </span>
+          )}
+        </>
+      );
+    } else {
+      return;
+    }
+  };
+
   return (
     <>
       <Header />
-      {window.location.pathname !== "/" && (
-        <span className={styles.locationBanner}>
-          {window.location.pathname}
-        </span>
-      )}
+      {pageNameChecker()}
       <main className={styles.mainContainer}>{props.children}</main>
       <Footer />
     </>

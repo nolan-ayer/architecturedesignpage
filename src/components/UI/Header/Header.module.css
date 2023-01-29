@@ -99,40 +99,42 @@
   }
 
   .navTitle {
-    font-size: 2.5vh;
+    font-size: 3.25vmax;
     font-family: "Bebas Neue", cursive;
   }
 
   .navTitle__selected {
-    font-size: 2.5vh;
+    font-size: 3.25vmax;
   }
 
   .navButton {
     margin: 1.5vh 0 1.5vh 1.5vh;
+    font-size: 3.5vmin;
   }
 
   .navButton__selected {
     margin: 1.5vh 0 1.5vh 1.5vh;
+    font-size: 3.5vmin;
   }
 }
 
-@media (orientation: portrait) and (width < 800px) {
+@media (orientation: portrait) and (width < 800px), (width < 800px) {
   .navContainer {
     padding: 1vh 2.5vh;
   }
   .navTitle {
-    font-size: 1.5vh;
+    font-size: 3vmax;
     font-family: "Bebas Neue", cursive;
   }
   .navTitle__selected {
-    font-size: 1.5vh;
+    font-size: 2.5vmax;
   }
   .navButton {
-    font-size: 1vh;
+    font-size: 3.5vmin;
     margin: 1.5vh 0 1.5vh 1.5vh;
   }
   .navButton__selected {
-    font-size: 1vh;
+    font-size: 3.5vmin;
     margin: 1.5vh 0 1.5vh 1.5vh;
   }
 }

@@ -3,7 +3,6 @@
 }
 
 .pageTitle {
-  font-size: 2vw;
   font-weight: bold;
   margin: 0 0 1vw 0;
   color: rgba(0, 0, 0, 0.75);
@@ -86,7 +85,7 @@
 
 .submitButton {
   font-family: "Bebas Neue", cursive;
-  font-size: 1.5vw;
+  font-size: 1.5vmin;
   background-color: transparent;
   color: rgba(0, 0, 0, 0.75);
   border: none;
@@ -117,14 +116,14 @@
     /* text-indent: 2.5vh; */
   }
   .pageTitle {
-    font-size: 3vh;
+    font-size: 3.25vmax;
     margin: 0 0 1vh 0;
   }
   .submitButtonContainer {
     margin: 2vh 0 0 0;
   }
   .submitButton {
-    font-size: 2vh;
+    font-size: 2vmin;
   }
   .contentSpanImage {
     width: 100%;
@@ -136,15 +135,15 @@
   }
 }
 
-@media (orientation: portrait) and (width < 800px) {
+@media (orientation: portrait) and (width < 800px), (width < 800px) {
   .padded {
     padding: 2.5vh;
   }
   .friendlyText {
-    font-size: 1.5vh;
+    font-size: 2vmax;
   }
   .align-center {
-    font-size: 1.5vh;
+    font-size: 2vmax;
   }
   .linedBreak {
     margin: 5vh 0;
