@@ -48,8 +48,8 @@ const About = () => {
     <section className="padded">
       <article className={styles.halfContainer}>
         <h3 className="pageTitle">
-          Fake Company Name is an an inspired design team for well equipped,
-          modern homes with Japanese flair.
+          Fake Company Name is an an inspired designer of well equipped modern
+          homes with Japanese flair.
         </h3>
         <p className="friendlyText">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum
@@ -58,17 +58,19 @@ const About = () => {
           id fermentum. Morbi interdum risus eu lacinia lacinia. Pellentesque
           varius, mauris ac volutpat auctor, sapien quam suscipit ante, non
           egestas ligula enim non erat. Nam ex nunc, dictum sed risus quis,
-          interdum vulputate purus. Quisque elementum a dui quis tristique.
-          Fusce magna odio, consectetur vel laoreet a, volutpat fermentum nibh.
-          Pellentesque dolor turpis, dapibus viverra semper a, auctor non orci.
-          Nunc placerat quam auctor orci vehicula lacinia. In tincidunt metus
-          quis elit mollis auctor. Integer condimentum turpis non tincidunt
-          porta. Quisque a nunc malesuada, dignissim purus sit amet, egestas
-          odio. Sed a facilisis lacus. Ut at tortor eu sapien sodales vulputate.
-          Sed suscipit auctor diam, varius vulputate dolor dictum et. Aenean
-          molestie suscipit imperdiet. Nam tortor eros, laoreet vel mi ut,
-          hendrerit sollicitudin dui. Cras suscipit imperdiet sapien, et
-          posuere.
+          interdum vulputate purus.
+        </p>
+        <p className="friendlyText">
+          Quisque elementum a dui quis tristique. Fusce magna odio, consectetur
+          vel laoreet a, volutpat fermentum nibh. Pellentesque dolor turpis,
+          dapibus viverra semper a, auctor non orci. Nunc placerat quam auctor
+          orci vehicula lacinia. In tincidunt metus quis elit mollis auctor.
+          Integer condimentum turpis non tincidunt porta. Quisque a nunc
+          malesuada, dignissim purus sit amet, egestas odio. Sed a facilisis
+          lacus. Ut at tortor eu sapien sodales vulputate. Sed suscipit auctor
+          diam, varius vulputate dolor dictum et. Aenean molestie suscipit
+          imperdiet. Nam tortor eros, laoreet vel mi ut, hendrerit sollicitudin
+          dui. Cras suscipit imperdiet sapien, et posuere.
         </p>
       </article>
       <span className={styles.cardContainer}>

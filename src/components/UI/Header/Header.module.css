@@ -4,12 +4,12 @@
   justify-content: space-between;
   align-items: center;
   background-color: rgb(35, 35, 40);
-  height: 4vh;
+  height: 4vmin;
   padding: 2.5vw;
 }
 
 .navTitle {
-  font-size: 2vw;
+  font-size: 2.5vmin;
   font-family: "Bebas Neue", cursive;
   color: white;
   /* color: transparent; */
@@ -19,7 +19,7 @@
 }
 
 .navTitle__selected {
-  font-size: 2vw;
+  font-size: 2.5vmin;
   font-family: "Bebas Neue", cursive;
   color: white;
   /* color: transparent; */
@@ -59,7 +59,7 @@
 
 .navButton {
   background-color: transparent;
-  margin: 1.5vw 0 1.5vw 1.5vw;
+  margin: 2.5vmin 0 2.5vmin 2.5vmin;
   padding: 0;
   text-decoration: none;
   border: none;
@@ -78,7 +78,7 @@
 
 .navButton__selected {
   background-color: transparent;
-  margin: 1.5vw 0 1.5vw 1.5vw;
+  margin: 2.5vmin 0 2.5vmin 2.5vmin;
   padding: 0;
   text-decoration: none;
   border: none;
@@ -109,12 +109,12 @@
 
   .navButton {
     margin: 1.5vh 0 1.5vh 1.5vh;
-    font-size: 3.5vmin;
+    font-size: 2.5vmax;
   }
 
   .navButton__selected {
     margin: 1.5vh 0 1.5vh 1.5vh;
-    font-size: 3.5vmin;
+    font-size: 2.5vmax;
   }
 }
 
@@ -127,14 +127,14 @@
     font-family: "Bebas Neue", cursive;
   }
   .navTitle__selected {
-    font-size: 2.5vmax;
+    font-size: 3vmax;
   }
   .navButton {
-    font-size: 3.5vmin;
+    font-size: 2.5vmax;
     margin: 1.5vh 0 1.5vh 1.5vh;
   }
   .navButton__selected {
-    font-size: 3.5vmin;
+    font-size: 2.5vmax;
     margin: 1.5vh 0 1.5vh 1.5vh;
   }
 }

@@ -4,33 +4,30 @@ import Header from "../UI/Header/Header";
 import styles from "./Layout.module.css";
 
 const Layout = (props) => {
-  const location = useLocation();
+  // const location = useLocation();
 
-  const pageNames = ["Home", "About", "Contact", "Portfolio"];
+  // const pageNames = ["Home", "About", "Contact", "Portfolio"];
 
-  const pageNameChecker = () => {
-    if (
-      !window.location.pathname.includes(pageNames) &&
-      window.location.pathname !== "/"
-    ) {
-      return (
-        <>
-          {
-            <span className={styles.locationBanner}>
-              {window.location.pathname}
-            </span>
-          }
-        </>
-      );
-    } else {
-      return;
-    }
-  };
+  // const pageNameChecker = () => {
+  //   if (
+  //     !window.location.pathname.includes(
+  //       "home" || "about" || "contact" || "portfolio"
+  //     )
+  //   ) {
+  //     return (
+  //       <span className={styles.locationBanner}>
+  //         {window.location.pathname}
+  //       </span>
+  //     );
+  //   } else {
+  //     return null;
+  //   }
+  // };
 
   return (
     <>
       <Header />
-      {pageNameChecker()}
+      {/* {pageNameChecker()} */}
       <main className={styles.mainContainer}>{props.children}</main>
       <Footer />
     </>
