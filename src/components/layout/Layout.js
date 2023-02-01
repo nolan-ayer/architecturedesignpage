@@ -9,14 +9,17 @@ const Layout = (props) => {
   const pageNames = ["Home", "About", "Contact", "Portfolio"];
 
   const pageNameChecker = () => {
-    if (!window.location.pathname.includes(pageNames)) {
+    if (
+      !window.location.pathname.includes(pageNames) &&
+      window.location.pathname !== "/"
+    ) {
       return (
         <>
-          {window.location.pathname !== "/" && (
+          {
             <span className={styles.locationBanner}>
               {window.location.pathname}
             </span>
-          )}
+          }
         </>
       );
     } else {
