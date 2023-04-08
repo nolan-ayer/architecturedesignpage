@@ -14,7 +14,7 @@ const Header = () => {
             : styles.navTitle
         }
       >
-        title
+        <h4>ModArch Design Co.</h4>
       </Link>
       <ul className={styles.buttonList}>
         <li>

@@ -1,29 +1,45 @@
 /* font-family: 'Bebas Neue', cursive; */
 /* font-family: 'Sofia Sans Semi Condensed', sans-serif; */
 
-body {
+* {
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
+}
+
+body,
+html {
   font-family: "Sofia Sans Semi Condensed", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 1.75vmin;
+  font-size: 16px;
   font-weight: normal;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 code {
   font-family: "Sofia Sans Semi Condensed", sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-weight: normal;
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
 }
 
 h3 {
-  font-size: 6vmin;
+  font-size: 1.75em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1.25em;
 }
 
 li {
@@ -46,32 +62,54 @@ textarea {
   font-family: "Sofia Sans Semi Condensed", sans-serif;
 }
 
-@media (orientation: portrait) {
-  body {
-    font-size: 2vmin;
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 14px;
   }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.75em;
+  }
+
   h3 {
-    font-size: 4vmin;
+    font-size: 1.5em;
   }
-  p {
-    font-size: 2vmax;
+
+  h4 {
+    font-size: 1.25em;
   }
-  label {
-    font-size: 2vmax;
+
+  h5 {
+    font-size: 1em;
   }
 }
 
-@media (orientation: portrait) and (width < 800px), (width < 800px) {
-  body {
-    font-size: 2vmax;
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 12px;
   }
+
+  h1 {
+    font-size: 1.75em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
   h3 {
-    font-size: 3vmax;
+    font-size: 1.25em;
   }
-  p {
-    font-size: 2vmax;
+
+  h4 {
+    font-size: 1.1em;
   }
-  label {
-    font-size: 2vmax;
+
+  h5 {
+    font-size: 1em;
   }
 }

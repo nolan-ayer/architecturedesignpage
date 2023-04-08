@@ -30,12 +30,12 @@ const PortfolioCard = ({
         <div className={!isHover ? "" : styles.itemImage__mouseOver} />
       </div>
       <section className={styles.itemTextContainer}>
-        <article
+        <h5
           className={!isHover ? styles.itemTitle : styles.itemTitle__mouseOver}
         >
           {title}
-        </article>
-        <article
+        </h5>
+        <h5
           className={
             !isHover
               ? styles.itemDescription
@@ -43,7 +43,7 @@ const PortfolioCard = ({
           }
         >
           {description}
-        </article>
+        </h5>
       </section>
     </li>
   );

@@ -5,7 +5,7 @@ import VIP from "./VIP";
 
 const execArray = [
   {
-    name: "Nolan Ayer",
+    name: "Nylan Aoler",
     title: "CEO",
     img: "https://images.pexels.com/photos/10031556/pexels-photo-10031556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
@@ -48,8 +48,8 @@ const About = () => {
     <section className="padded">
       <article className={styles.halfContainer}>
         <h3 className="pageTitle">
-          Fake Company Name is an an inspired designer of well equipped modern
-          homes with Japanese flair.
+          ModArch Design Co. - Blending Japanese Traditions with Modern
+          Architecture to Create Your Dream Home
         </h3>
         <p className="friendlyText">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum

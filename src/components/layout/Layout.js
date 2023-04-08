@@ -28,7 +28,7 @@ const Layout = (props) => {
     <>
       <Header />
       {/* {pageNameChecker()} */}
-      <main className={styles.mainContainer}>{props.children}</main>
+      <div className={styles.mainContainer}>{props.children}</div>
       <Footer />
     </>
   );

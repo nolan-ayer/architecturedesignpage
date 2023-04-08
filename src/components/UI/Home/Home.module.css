@@ -12,14 +12,23 @@
 }
 
 .bannerTextContainer {
+  bottom: 0;
+  margin: 0 0 5% 5%;
   position: absolute;
   z-index: 1000;
-  bottom: 0;
-  margin: 0 0 2.5vw 2.5vw;
+}
+
+.bannerTextContainer > h2 {
+  font-size: 3.25em;
+  margin: 10px 0;
+}
+
+.bannerTextSecondary > h5 {
+  font-size: 1.75em;
+  margin: 10px 0;
 }
 
 .bannerTextPrimary {
-  font-size: 4vw;
   color: white;
   margin: 0 0 1vw 0;
   overflow-wrap: break-word;
@@ -27,7 +36,6 @@
 
 .bannerTextSecondary {
   font-family: "Bebas Neue", cursive;
-  font-size: 2vw;
   color: white;
   margin: 0;
   text-decoration: none;
@@ -40,19 +48,28 @@
 
 @media (orientation: portrait) {
   .bannerTextContainer {
-    width: calc(100% - 15vh);
-    text-align: center;
-    margin: 7.5vh;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -25%);
+    width: 100%;
   }
 
   .bannerTextPrimary {
-    text-align: center;
-    font-size: 5vh;
     margin: 0 0 1vh 0;
+    text-align: center;
+  }
+
+  .bannerTextContainer > h2 {
+    font-size: 2.5em;
+    margin: 10px 0;
   }
 
   .bannerTextSecondary {
     text-align: center;
-    font-size: 2.5vh;
+  }
+
+  .bannerTextSecondary > h5 {
+    font-size: 1.5em;
+    margin: 10px 0;
   }
 }

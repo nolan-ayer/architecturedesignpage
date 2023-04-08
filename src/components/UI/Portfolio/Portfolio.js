@@ -31,7 +31,7 @@ const cardList = [
       "https://images.pexels.com/photos/4679108/pexels-photo-4679108.jpeg?",
     imgAlt: "A stunning photo of some architecture",
     title: "Yokohama",
-    description: "Japanese style with western influence",
+    description: "Premium materials, ethically sourced",
     originalPage:
       "https://www.pexels.com/photo/black-traditional-house-surrounded-with-green-plants-4679108/",
   },

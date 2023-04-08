@@ -5,7 +5,6 @@
 .locationBanner {
   display: flex;
   padding: 2.5vw 2.5vw 0 2.5vw;
-  font-size: 4vmin;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.75);
 }
@@ -13,13 +12,11 @@
 @media (orientation: portrait) {
   .locationBanner {
     padding: 7.5vh 7.5vh 0 7.5vh;
-    font-size: 7.5vmax;
   }
 }
 
 @media (orientation: portrait) and (width < 800px), (width < 800px) {
   .locationBanner {
     padding: 2.5vh 2.5vh 0 2.5vh;
-    font-size: 5vmax;
   }
 }

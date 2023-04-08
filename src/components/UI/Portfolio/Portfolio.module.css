@@ -1,7 +1,7 @@
 .itemList {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
   column-gap: 2.5vw;
   row-gap: 2.5vw;
   padding: 2.5vw;
@@ -14,7 +14,7 @@
   .itemList {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    row-gap: auto;
+    row-gap: 2.5vh;
     padding: 7.5vh;
   }
 }

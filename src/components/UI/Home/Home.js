@@ -8,21 +8,23 @@ const homeData = [
     bannerSecondary: "explore designs",
     linkTo: "/portfolio",
     img: "https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg?",
-    textBodyOne:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    textBodyTwo:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    textHeader: "Our methodology of design",
+    textBodyOne: `At ModArch Design Co., we believe in creating homes that seamlessly blend the beauty of Japanese traditions with modern architecture. We understand that every home is unique, which is why we work closely with our clients to create personalized designs that perfectly fit their vision and lifestyle. Our goal is to create homes that not only look stunning but also provide a functional and comfortable living space for our clients.`,
+    textBodyTwo: `Our design philosophy is inspired by the Japanese concept of "Wabi-Sabi," which celebrates the beauty of imperfection and embraces natural materials and minimalism. We believe that this approach allows us to create timeless designs that are not only aesthetically pleasing but also sustainable and durable.`,
   },
   {
     key: 1,
-    bannerPrimary: "What sets Fake Company Name apart",
+    bannerPrimary: "What sets ModArch Design Co. apart",
     bannerSecondary: "learn more about the process",
     linkTo: "/process",
     img: "https://images.pexels.com/photos/210547/pexels-photo-210547.jpeg?",
+    textHeader: "Bringing your concepts to life",
     textBodyOne:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo onsequat.",
+      "At ModArch Design Co., we take a collaborative approach to our design process. We start by understanding our client's vision, needs, and budget, followed by an extensive research and analysis phase. During this phase, we gather inspiration, study the site, and create initial sketches to present to our clients.",
     textBodyTwo:
-      "Etiam lobortis nec enim a congue. Donec id lectus nec nulla volutpat viverra. Donec sit amet turpis congue, placerat sapien sed, blandit lacus. Quisque aliquam feugiat justo, eu rutrum elit ornare sed. Proin facilisis pharetra mauris eget hendrerit. Aenean malesuada elementum quam, quis laoreet risus tristique in. Quisque quis viverra eros. Nullam dictum in erat vitae ultrices. In suscipit elit mattis neque volutpat, non tempus enim maximus. Nunc volutpat in neque ut interdum. Quisque scelerisque blandit dui.",
+      "Once we have a solid design concept, we work on refining the details, selecting materials, and creating technical drawings. We also work closely with our construction team to ensure that the design is feasible and meets building codes.",
+    textBodyThree:
+      "Throughout the entire design process, we communicate openly with our clients to ensure that their vision is realized. Our goal is to create a stress-free and enjoyable experience for our clients, resulting in a home that they can be proud of.",
   },
   {
     key: 2,
@@ -30,10 +32,9 @@ const homeData = [
     bannerSecondary: "get in touch",
     linkTo: "/contact",
     img: "https://images.pexels.com/photos/6249543/pexels-photo-6249543.jpeg?",
+    textHeader: "Ready to start creating your dream home? ",
     textBodyOne:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus   porttitor, turpis a tincidunt aliquet, ex nunc pretium orci, bibendum porta leo ligula ut eros. Mauris tortor dui, viverra in faucibus ac, ullamcorper a eros. Nam vestibulum dapibus ante, sed vulputate dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam eu volutpat leo, ut venenatis eros. Nunc metus elit, commodo ac risus in, convallis auctor ex. Quisque scelerisque quam eu finibus convallis. Vivamus sollicitudin urna at est finibus, ac pretium lectus rutrum. Quisque suscipit enim in gravida laoreet. Morbi semper, orci quis tempor finibus, purus lectus lacinia massa, dictum rhoncus sapien sapien quis quam. Phasellus sollicitudin diam mi. Morbi quis malesuada felis. Curabitur tempus vulputate elit nec eleifend.",
-    textBodyTwo:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "At ModArch Design Co., we are passionate about bringing our client's vision to life. Whether you are looking to build a new home or renovate an existing one, our team is here to help. Contact us today to schedule a consultation and take the first step towards creating the home of your dreams.",
   },
 ];
 
@@ -51,8 +52,10 @@ const Home = () => {
             bannerSecondary={items.bannerSecondary}
             linkTo={items.linkTo}
             img={items.img}
+            textHeader={items.textHeader}
             textBodyOne={items.textBodyOne}
             textBodyTwo={items.textBodyTwo}
+            textBodyThree={items.textBodyThree}
           />
         );
       })}
