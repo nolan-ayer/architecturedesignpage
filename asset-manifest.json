@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/architecturedesignpage/static/css/main.d6c3c1ab.css",
-    "main.js": "/architecturedesignpage/static/js/main.6395a414.js",
+    "main.css": "/architecturedesignpage/static/css/main.b0b78477.css",
+    "main.js": "/architecturedesignpage/static/js/main.4875afdd.js",
     "static/js/377.bc87a527.chunk.js": "/architecturedesignpage/static/js/377.bc87a527.chunk.js",
     "index.html": "/architecturedesignpage/index.html",
-    "main.d6c3c1ab.css.map": "/architecturedesignpage/static/css/main.d6c3c1ab.css.map",
-    "main.6395a414.js.map": "/architecturedesignpage/static/js/main.6395a414.js.map",
+    "main.b0b78477.css.map": "/architecturedesignpage/static/css/main.b0b78477.css.map",
+    "main.4875afdd.js.map": "/architecturedesignpage/static/js/main.4875afdd.js.map",
     "377.bc87a527.chunk.js.map": "/architecturedesignpage/static/js/377.bc87a527.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6c3c1ab.css",
-    "static/js/main.6395a414.js"
+    "static/css/main.b0b78477.css",
+    "static/js/main.4875afdd.js"
   ]
 }
