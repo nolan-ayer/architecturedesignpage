@@ -14,36 +14,63 @@ const Process = () => {
         <div className={styles.introContainer}>
           <article>
             <section className="friendlyText">
-              At our design company, we take a unique approach to every project
-              that sets us apart from the competition. We believe that great
-              design is about more than just aesthetics - it's about
-              understanding the needs and goals of our clients and creating
-              solutions that are both functional and beautiful.
+              At our company, we take great pride in our commitment to using
+              clean, renewable energy and sustainable materials in all of our
+              building projects. Our method sets us apart in the industry and
+              has earned us a reputation for being a responsible,
+              environmentally conscious builder. We understand the importance of
+              minimizing our carbon footprint and reducing waste, and we are
+              constantly exploring new ways to achieve these goals.
             </section>
             <section className="friendlyText">
-              Our method starts with a deep dive into our clients' vision,
-              objectives, and challenges. We take the time to listen, ask
-              questions, and truly understand what they want to achieve. From
-              there, we combine our creativity and technical expertise to
-              develop custom solutions that meet their specific needs.
+              One of the ways we stand out is through our use of clean renewable
+              energy. We are dedicated to utilizing solar, wind, and other
+              renewable energy sources wherever possible. This not only helps to
+              reduce our carbon footprint, but it also saves our clients money
+              on their energy bills in the long run. We work closely with our
+              clients to determine the best renewable energy options for their
+              specific needs and incorporate these solutions into the design of
+              their homes.
             </section>
             <section className="friendlyText">
-              But we don't stop there. We also believe in a collaborative
-              process that involves our clients every step of the way. We seek
-              feedback and input to ensure that the final product is exactly
-              what they envisioned. And we're not satisfied until they are.
+              Another way we set ourselves apart is through our use of
+              sustainable materials. We prioritize the use of materials that are
+              environmentally friendly and have a lower impact on the planet.
+              This includes everything from recycled building materials to
+              sustainably sourced lumber. We work with our clients to find the
+              right balance between sustainability and cost-effectiveness, and
+              we are always on the lookout for new materials and techniques that
+              can help us achieve our sustainability goals.
             </section>
             <section className="friendlyText">
-              Finally, we pride ourselves on staying up-to-date with the latest
-              trends and technologies in design. We're always exploring new
-              techniques and tools to deliver cutting-edge solutions that set
-              our clients apart from the competition.
+              In addition to our commitment to clean energy and sustainable
+              materials, our method is also distinguished by our attention to
+              detail and our focus on the needs and desires of our clients. We
+              understand that building a home is a significant investment, and
+              we take this responsibility seriously. We work closely with our
+              clients to ensure that every detail is accounted for, from the
+              layout and design of the home to the finishes and materials used
+              in the construction process.
             </section>
             <section className="friendlyText">
-              In short, our method is all about understanding our clients'
-              needs, collaborating with them throughout the process, and
-              delivering top-notch results that are both functional and
-              beautiful.
+              Our team of architects, designers, builders, and project managers
+              is passionate about what they do and committed to delivering
+              exceptional service to our clients. We understand that building a
+              home can be a complex and daunting process, and we strive to make
+              it as stress-free and enjoyable as possible. Our team is always
+              available to answer questions and provide guidance throughout the
+              building process, and we work tirelessly to ensure that our
+              clients are completely satisfied with the final result.
+            </section>
+            <section className="friendlyText">
+              In conclusion, our commitment to clean, renewable energy and
+              sustainable materials, our attention to detail, and our focus on
+              the needs and desires of our clients all set our method apart in
+              the industry. We believe that building a home should be a
+              positive, rewarding experience, and we are dedicated to making
+              that a reality for our clients. We are proud of the work that we
+              do and look forward to continuing to provide exceptional service
+              to our clients for years to come.
             </section>
           </article>
           <div className={styles.imageContainer}>

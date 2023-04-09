@@ -1,6 +1,6 @@
 .itemList {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
   column-gap: 2.5vw;
   row-gap: 2.5vw;
@@ -10,17 +10,30 @@
   list-style: none;
 }
 
-@media (orientation: portrait) {
+@media (orientation: portrait) and (width < 600px) {
   .itemList {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    row-gap: 2.5vh;
-    padding: 7.5vh;
+    row-gap: 5vw;
+    padding: 5vw;
   }
 }
 
-@media (orientation: portrait) and (width < 800px), (width < 800px) {
+@media (orientation: portrait) and (width > 600px) {
   .itemList {
-    padding: 2.5vh;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2.5vh;
+    padding: 5vh;
+  }
+}
+
+@media (orientation: landscape) and (width < 800px) {
+  .itemList {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (orientation: landscape) and (width > 1080px) {
+  .itemList {
+    grid-template-columns: repeat(3, 1fr);
   }
 }

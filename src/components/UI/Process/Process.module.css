@@ -26,7 +26,7 @@
   height: 100%;
   margin: 0 0 2vh 0;
   object-fit: cover;
-  object-position: center top;
+  object-position: 20% top;
   width: 100%;
 }
 
@@ -45,21 +45,23 @@
   margin-bottom: 6vh;
 }
 
-@media (orientation: portrait) and (width < 600px) {
-  .mainArticle {
-    width: fit-content;
-    margin: 0;
-  }
-
+@media (orientation: portrait), (width < 1000px) {
   .contentSpan {
-    grid-template-columns: 1fr;
     grid-template-rows: auto;
     column-gap: 2vh;
     row-gap: 2vh;
   }
 
+  .image {
+    height: auto;
+    object-position: center top;
+  }
+
+  .imageContainer {
+    width: 100%;
+  }
+
   .introContainer {
-    display: flex;
     flex-direction: column;
   }
 
@@ -67,42 +69,26 @@
     width: 100%;
   }
 
-  .image {
-    height: auto;
+  .mainArticle {
+    width: fit-content;
+    margin: 0;
   }
+}
 
-  .imageContainer {
-    width: 100%;
+@media (orientation: portrait) and (width < 600px) {
+  .contentSpan {
+    grid-template-columns: 1fr;
   }
 }
 
 @media (orientation: portrait) and (width > 600px) {
-  .mainArticle {
-    width: fit-content;
-    margin: 0;
-  }
-
   .contentSpan {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-    column-gap: 2vh;
-    row-gap: 2vh;
   }
+}
 
+@media (orientation: landscape) and (width > 2560px) {
   .introContainer {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .introContainer > article {
-    width: 100%;
-  }
-
-  .image {
-    height: auto;
-  }
-
-  .imageContainer {
-    width: 100%;
+    flex-direction: row;
   }
 }

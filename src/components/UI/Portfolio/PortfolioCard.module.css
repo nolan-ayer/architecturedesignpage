@@ -20,7 +20,7 @@
 
 .items:hover > .itemTextContainer {
   background-color: rgba(255, 255, 255, 1);
-  /* background-color: rgba(255, 255, 255, 0.75); */
+
   box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.25);
   transition-timing-function: ease-in;
   transition: 350ms;
@@ -72,7 +72,7 @@
 
 .itemTextContainer {
   background-color: rgba(255, 255, 255, 0.65);
-  /* background-color: rgba(255, 255, 255, 1); */
+
   border-radius: 5vw;
   bottom: 5%;
   display: flex;
@@ -102,7 +102,7 @@
   width: 100%;
 }
 
-@media (orientation: landscape) and (hover: none) {
+@media (hover: none) {
   .items {
     aspect-ratio: 3/2;
   }
@@ -128,7 +128,7 @@
 
   .itemTitle {
     color: rgba(0, 0, 0, 1);
-    /* margin: 0 0 1rem 0; */
+
     text-align: center;
   }
 
@@ -166,7 +166,7 @@
 
   .itemTextContainer {
     align-items: center;
-    /* background-color: rgba(0, 0, 0, 0.5); */
+
     height: fit-content;
     justify-content: center;
     left: 50%;
@@ -176,29 +176,21 @@
   }
 
   .itemTitle {
-    /* color: rgba(255, 255, 255, 1); */
-    /* margin: 0 0 3.5vmin 0; */
     text-align: center;
   }
 
   .itemTitle__mouseOver {
-    /* color: rgba(255, 255, 255, 1); */
     text-align: center;
     width: 75%;
   }
 
   .itemDescription {
-    /* color: rgba(255, 255, 255, 1); */
     text-align: center;
     width: 75%;
   }
 
   .itemDescription__mouseOver {
-    /* color: rgba(255, 255, 255, 1); */
     text-align: center;
     width: 75%;
   }
 }
-
-/* @media (orientation: portrait) and (width < 800px), (width < 800px) {
-} */
