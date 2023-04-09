@@ -106,7 +106,7 @@
   padding: 0 0 1vw 0;
 }
 
-@media (orientation: portrait) and (width < 600px) {
+@media only screen and (orientation: portrait) and (width < 600px) {
   .align-center {
     margin: 0;
   }
@@ -147,7 +147,7 @@
   }
 }
 
-@media (orientation: portrait) and (width > 600px) {
+@media only screen and (orientation: portrait) and (width > 600px) {
   .align-center {
     margin: 0;
   }

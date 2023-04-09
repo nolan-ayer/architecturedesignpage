@@ -43,7 +43,7 @@
   margin-bottom: 2.5vmin;
 }
 
-@media (orientation: portrait) {
+@media only screen and (orientation: portrait) {
   .halfContainer {
     width: 100%;
   }

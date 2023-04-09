@@ -43,7 +43,7 @@
   margin: 7.5vw 0 5vw 0;
 }
 
-@media (orientation: portrait) {
+@media only screen and (orientation: portrait) {
   .footerLink {
   }
   .footerCopywrite {
@@ -62,7 +62,8 @@
   }
 }
 
-@media (orientation: portrait) and (width < 800px), (width < 800px) {
+@media only screen and (orientation: portrait) and (width < 800px),
+  (width < 800px) {
   .footerLink {
   }
   .footerList {

@@ -45,7 +45,7 @@
   margin-bottom: 6vh;
 }
 
-@media (orientation: portrait), (width < 1000px) {
+@media only screen and (orientation: portrait), (width < 1000px) {
   .contentSpan {
     grid-template-rows: auto;
     column-gap: 2vh;
@@ -75,19 +75,19 @@
   }
 }
 
-@media (orientation: portrait) and (width < 600px) {
+@media only screen and (orientation: portrait) and (width < 600px) {
   .contentSpan {
     grid-template-columns: 1fr;
   }
 }
 
-@media (orientation: portrait) and (width > 600px) {
+@media only screen and (orientation: portrait) and (width > 600px) {
   .contentSpan {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (orientation: landscape) and (width > 2560px) {
+@media only screen and (orientation: landscape) and (width > 2560px) {
   .introContainer {
     flex-direction: row;
   }

@@ -102,7 +102,7 @@
   width: 100%;
 }
 
-@media (hover: none) {
+@media only screen and (hover: none) {
   .items {
     aspect-ratio: 3/2;
   }
@@ -151,7 +151,7 @@
   }
 }
 
-@media (orientation: portrait) {
+@media only screen and (orientation: portrait) {
   .items {
     aspect-ratio: 3/2;
   }

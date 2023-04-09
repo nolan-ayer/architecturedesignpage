@@ -46,7 +46,7 @@
   transition: 350ms;
 }
 
-@media (orientation: portrait) {
+@media only screen and (orientation: portrait) {
   .bannerTextContainer {
     left: 50%;
     margin: 0;
@@ -74,7 +74,7 @@
   }
 }
 
-@media (orientation: landscape) and (width < 600px) {
+@media only screen and (orientation: landscape) and (width < 600px) {
   .bannerTextContainer > h2 {
     font-size: 2em;
   }

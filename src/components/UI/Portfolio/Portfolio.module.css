@@ -10,7 +10,7 @@
   list-style: none;
 }
 
-@media (orientation: portrait) and (width < 600px) {
+@media only screen and (orientation: portrait) and (width < 600px) {
   .itemList {
     grid-template-columns: 1fr;
     row-gap: 5vw;
@@ -18,7 +18,7 @@
   }
 }
 
-@media (orientation: portrait) and (width > 600px) {
+@media only screen and (orientation: portrait) and (width > 600px) {
   .itemList {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 2.5vh;
@@ -26,13 +26,13 @@
   }
 }
 
-@media (orientation: landscape) and (width < 800px) {
+@media only screen and (orientation: landscape) and (width < 800px) {
   .itemList {
     grid-template-columns: 1fr;
   }
 }
 
-@media (orientation: landscape) and (width > 1080px) {
+@media only screen and (orientation: landscape) and (width > 1080px) {
   .itemList {
     grid-template-columns: repeat(3, 1fr);
   }

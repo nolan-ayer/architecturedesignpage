@@ -9,13 +9,14 @@
   color: rgba(0, 0, 0, 0.75);
 }
 
-@media (orientation: portrait) {
+@media only screen and (orientation: portrait) {
   .locationBanner {
     padding: 7.5vh 7.5vh 0 7.5vh;
   }
 }
 
-@media (orientation: portrait) and (width < 800px), (width < 800px) {
+@media only screen and (orientation: portrait) and (width < 800px),
+  (width < 800px) {
   .locationBanner {
     padding: 2.5vh 2.5vh 0 2.5vh;
   }
