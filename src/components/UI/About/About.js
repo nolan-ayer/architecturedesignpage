@@ -52,25 +52,21 @@ const About = () => {
           Architecture to Create Your Dream Home
         </h3>
         <p className="friendlyText">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum
-          condimentum dui. Cras urna enim, convallis quis metus a, eleifend
-          congue eros. Cras in malesuada mi. Curabitur tincidunt vehicula mauris
-          id fermentum. Morbi interdum risus eu lacinia lacinia. Pellentesque
-          varius, mauris ac volutpat auctor, sapien quam suscipit ante, non
-          egestas ligula enim non erat. Nam ex nunc, dictum sed risus quis,
-          interdum vulputate purus.
+          At our company, we are proud to have a team of dedicated and skilled
+          professionals who are committed to providing the best possible service
+          to our clients. Our team is made up of architects, designers,
+          builders, and project managers, each bringing their own unique
+          perspective and expertise to every project. We believe that our team
+          is the heart and soul of our company, and we are grateful for the hard
+          work and dedication they bring to each and every job.
         </p>
         <p className="friendlyText">
-          Quisque elementum a dui quis tristique. Fusce magna odio, consectetur
-          vel laoreet a, volutpat fermentum nibh. Pellentesque dolor turpis,
-          dapibus viverra semper a, auctor non orci. Nunc placerat quam auctor
-          orci vehicula lacinia. In tincidunt metus quis elit mollis auctor.
-          Integer condimentum turpis non tincidunt porta. Quisque a nunc
-          malesuada, dignissim purus sit amet, egestas odio. Sed a facilisis
-          lacus. Ut at tortor eu sapien sodales vulputate. Sed suscipit auctor
-          diam, varius vulputate dolor dictum et. Aenean molestie suscipit
-          imperdiet. Nam tortor eros, laoreet vel mi ut, hendrerit sollicitudin
-          dui. Cras suscipit imperdiet sapien, et posuere.
+          Our team is passionate about what they do, and it shows in the quality
+          of their work. From the initial consultation to the final walkthrough,
+          our team is focused on creating a space that meets the unique needs
+          and desires of each client. We take pride in our ability to work
+          closely with our clients to understand their vision and turn it into a
+          beautiful, functional reality.
         </p>
       </article>
       <span className={styles.cardContainer}>

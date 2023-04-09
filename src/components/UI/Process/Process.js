@@ -71,9 +71,9 @@ const Process = () => {
             />
             <h5 className={styles.headerSpan}>Your vision becomes a design</h5>
             <p className="friendlyText">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              posuere erat tortor. Nunc rutrum sagittis ullamcorper. Proin at
-              felis urna. Donec eleifend tortor id tincidunt mollis.
+              We turn your vision into a beautifully crafted design that
+              reflects your unique personality and lifestyle, creating a space
+              that feels like home.
             </p>
             <nav>
               <Link to="" className="navLink-black">
@@ -91,9 +91,9 @@ const Process = () => {
             />
             <h5 className={styles.headerSpan}>Predictability of cost</h5>
             <p className="friendlyText">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              posuere erat tortor. Nunc rutrum sagittis ullamcorper. Proin at
-              felis urna.
+              We understand the importance of predictability in building your
+              dream home. That's why we offer transparent and accurate cost
+              estimates, with no hidden fees or surprises.
             </p>
             <nav>
               <Link to="" className="navLink-black">
@@ -111,11 +111,9 @@ const Process = () => {
             />
             <h5 className={styles.headerSpan}>How systems-built works</h5>
             <p className="friendlyText">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              posuere erat tortor. Nunc rutrum sagittis ullamcorper. Proin at
-              felis urna. Donec eleifend tortor id tincidunt mollis. Nulla
-              interdum, libero at commodo maximus, nunc lorem porta nisl, eget
-              faucibus libero tellus a leo.
+              Our systems-built approach to housing allows us to build your
+              dream home quickly and efficiently, while still maintaining high
+              quality standards and attention to detail.
             </p>
             <nav>
               <Link to="" className="navLink-black">
@@ -133,9 +131,10 @@ const Process = () => {
             />
             <h5 className={styles.headerSpan}>Build your home</h5>
             <p className="friendlyText">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              posuere erat tortor. Nunc rutrum sagittis ullamcorper. Proin at
-              felis urna. Donec eleifend tortor id tincidunt mollis.
+              Build your home with us and experience the joy of a stress-free
+              construction process. We are committed to delivering a beautiful,
+              custom-built home that exceeds your expectations, while providing
+              exceptional customer service along the way.
             </p>
             <nav>
               <Link to="" className="navLink-black">
