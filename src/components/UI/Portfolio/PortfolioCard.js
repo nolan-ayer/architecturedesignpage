@@ -25,7 +25,10 @@ const PortfolioCard = ({
       }}
       onClick={loadOrigin}
     >
-      <div className={styles.imageContainer}>
+      <div
+        className={styles.imageContainer}
+        title={`The ${title} commission, by ModArch Design Co.`}
+      >
         <img className={styles.itemImage} alt={imgAlt} src={imgSrc} />
         <div className={!isHover ? "" : styles.itemImage__mouseOver} />
       </div>
@@ -35,7 +38,7 @@ const PortfolioCard = ({
         >
           {title}
         </h5>
-        <h5
+        <span
           className={
             !isHover
               ? styles.itemDescription
@@ -43,7 +46,7 @@ const PortfolioCard = ({
           }
         >
           {description}
-        </h5>
+        </span>
       </section>
     </li>
   );

@@ -9,7 +9,7 @@ const Header = () => {
       <Link
         to="/"
         className={
-          window.location.pathname === "/"
+          window.location.pathname === "#/"
             ? styles.navTitle__selected
             : styles.navTitle
         }

@@ -9,26 +9,55 @@ const Process = () => {
   const alt = "A stage in the building process of a Fake Company house";
   return (
     <section className="padded">
-      <article className={styles.mainArticle}>
+      <div className={styles.mainArticle}>
         <h3 className="pageTitle">What sets our method apart</h3>
-        <p className="friendlyText">
-          Etiam lobortis nec enim a congue. Donec id lectus nec nulla volutpat
-          viverra. Donec sit amet turpis congue, placerat sapien sed, blandit
-          lacus. Quisque aliquam feugiat justo, eu rutrum elit ornare sed. Proin
-          facilisis pharetra mauris eget hendrerit. Aenean malesuada elementum
-          quam, quis laoreet risus tristique in. Quisque quis viverra eros.
-          Nullam dictum in erat vitae ultrices. In suscipit elit mattis neque
-          volutpat, non tempus enim maximus. Nunc volutpat in neque ut interdum.
-          Quisque scelerisque blandit dui.
-        </p>
-        <img
-          className="contentSpanImageHeader"
-          src={
-            "https://images.pexels.com/photos/414837/pexels-photo-414837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          }
-          alt={alt}
-        />
-      </article>
+        <div className={styles.introContainer}>
+          <article>
+            <section className="friendlyText">
+              At our design company, we take a unique approach to every project
+              that sets us apart from the competition. We believe that great
+              design is about more than just aesthetics - it's about
+              understanding the needs and goals of our clients and creating
+              solutions that are both functional and beautiful.
+            </section>
+            <section className="friendlyText">
+              Our method starts with a deep dive into our clients' vision,
+              objectives, and challenges. We take the time to listen, ask
+              questions, and truly understand what they want to achieve. From
+              there, we combine our creativity and technical expertise to
+              develop custom solutions that meet their specific needs.
+            </section>
+            <section className="friendlyText">
+              But we don't stop there. We also believe in a collaborative
+              process that involves our clients every step of the way. We seek
+              feedback and input to ensure that the final product is exactly
+              what they envisioned. And we're not satisfied until they are.
+            </section>
+            <section className="friendlyText">
+              Finally, we pride ourselves on staying up-to-date with the latest
+              trends and technologies in design. We're always exploring new
+              techniques and tools to deliver cutting-edge solutions that set
+              our clients apart from the competition.
+            </section>
+            <section className="friendlyText">
+              In short, our method is all about understanding our clients'
+              needs, collaborating with them throughout the process, and
+              delivering top-notch results that are both functional and
+              beautiful.
+            </section>
+          </article>
+          <div className={styles.imageContainer}>
+            <img
+              className={styles.image}
+              src={
+                "https://images.pexels.com/photos/414837/pexels-photo-414837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              }
+              alt={alt}
+              title="Renewable energy facility used by ModArch Design Co."
+            />
+          </div>
+        </div>
+      </div>
       <span className={styles.majorContainer}>
         <h4 className={styles.headerSpan}>Our process</h4>
         <span className={styles.contentSpan}>
@@ -40,7 +69,7 @@ const Process = () => {
               }
               alt={alt}
             />
-            <h4 className={styles.headerSpan}>Your vision becomes a design</h4>
+            <h5 className={styles.headerSpan}>Your vision becomes a design</h5>
             <p className="friendlyText">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               posuere erat tortor. Nunc rutrum sagittis ullamcorper. Proin at
@@ -60,7 +89,7 @@ const Process = () => {
               }
               alt={alt}
             />
-            <h4 className={styles.headerSpan}>Predictability of cost</h4>
+            <h5 className={styles.headerSpan}>Predictability of cost</h5>
             <p className="friendlyText">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               posuere erat tortor. Nunc rutrum sagittis ullamcorper. Proin at
@@ -80,7 +109,7 @@ const Process = () => {
               }
               alt={alt}
             />
-            <h4 className={styles.headerSpan}>How systems-built works</h4>
+            <h5 className={styles.headerSpan}>How systems-built works</h5>
             <p className="friendlyText">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               posuere erat tortor. Nunc rutrum sagittis ullamcorper. Proin at
@@ -102,7 +131,7 @@ const Process = () => {
               }
               alt={alt}
             />
-            <h4 className={styles.headerSpan}>Build your home</h4>
+            <h5 className={styles.headerSpan}>Build your home</h5>
             <p className="friendlyText">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               posuere erat tortor. Nunc rutrum sagittis ullamcorper. Proin at
@@ -127,7 +156,7 @@ const Process = () => {
               }
               alt={alt}
             />
-            <h4 className="textSpan">Universal design is a good design</h4>
+            <span className="textSpan">{`> Universal design is a good design`}</span>
           </Link>
           <Link className="navLink-black" to="/">
             <img
@@ -137,7 +166,7 @@ const Process = () => {
               }
               alt={alt}
             />
-            <h4 className="textSpan">Why we use prefab panels</h4>
+            <span className="textSpan">{`> Why we use prefab panels`}</span>
           </Link>
           <Link className="navLink-black" to="/">
             <img
@@ -147,7 +176,7 @@ const Process = () => {
               }
               alt={alt}
             />
-            <h4 className="textSpan">Your home evolves as we do</h4>
+            <span className="textSpan">{`> Your home evolves as we do`}</span>
           </Link>
         </span>
       </span>
