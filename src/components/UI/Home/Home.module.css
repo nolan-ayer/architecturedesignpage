@@ -73,3 +73,12 @@
     margin: 10px 0;
   }
 }
+
+@media (orientation: landscape) and (width < 600px) {
+  .bannerTextContainer > h2 {
+    font-size: 2em;
+  }
+  .bannerTextSecondary > h5 {
+    font-size: 1.25em;
+  }
+}

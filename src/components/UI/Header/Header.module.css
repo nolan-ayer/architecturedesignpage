@@ -55,6 +55,10 @@
   font-family: "Bebas Neue", cursive;
 }
 
+.navTitle > h4 {
+  text-align: center;
+}
+
 .navTitle:hover {
   color: white;
   transition-timing-function: ease-in-out;
@@ -75,7 +79,7 @@
   .buttonList {
     background-color: rgba(255, 255, 255, 0.5);
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1rem 3rem;
     width: 100%;
   }
 
@@ -96,18 +100,14 @@
     font-size: 2.25rem;
     margin: 1rem;
   }
-
-  .navTitle__selected {
-  }
 }
 
-/* @media (orientation: portrait) and (width < 800px), (width < 800px) {
-  .navContainer {
-    padding: 1vh 2.5vh;
+@media (orientation: portrait) and (width < 600px) {
+  .buttonList {
+    justify-content: center;
   }
-  .navTitle {
-    font-family: "Bebas Neue", cursive;
+
+  .navButton {
+    margin: 1rem 3vmin;
   }
-  .navTitle__selected {
-  }
-} */
+}
