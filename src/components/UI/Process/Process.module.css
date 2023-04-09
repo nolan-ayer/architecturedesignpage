@@ -87,7 +87,7 @@
   }
 }
 
-@media only screen and (orientation: landscape) and (width > 2560px) {
+@media only screen and (orientation: landscape) and (width >= 2560px) {
   .introContainer {
     flex-direction: row;
   }
