@@ -84,6 +84,16 @@
   }
 }
 
+@media only screen and (orientation: portrait) and (width < 600px) {
+  .bannerTextContainer {
+    left: 50%;
+    margin: 0;
+    padding: 0 1rem;
+    transform: translate(-50%, -25%);
+    width: 85%;
+  }
+}
+
 @media only screen and (orientation: landscape) and (width < 600px) {
   .bannerTextContainer > h2 {
     font-size: 2em;
