@@ -65,11 +65,13 @@
     padding: 0.5vh 1.5vh;
     width: calc(100% - 3.5vh);
     height: 4vh;
+    width: 100%;
   }
   .textField {
     padding: 0.5vh 1.5vh;
     width: calc(100% - 3.5vh);
     height: 10vh;
     resize: none;
+    width: 100%;
   }
 }
