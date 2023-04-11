@@ -53,7 +53,7 @@
 
 @media only screen and (orientation: portrait) {
   .bannerImage {
-    height: 30vh;
+    height: 50vh;
   }
 
   .bannerTextContainer {
@@ -89,7 +89,7 @@
     left: 50%;
     margin: 0;
     padding: 0 1rem;
-    transform: translate(-50%, -5%);
+    transform: translate(-50%, -15%);
     width: 85%;
   }
 

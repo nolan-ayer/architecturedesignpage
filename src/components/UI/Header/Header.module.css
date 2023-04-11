@@ -78,6 +78,7 @@
 @media only screen and (orientation: portrait) {
   .buttonList {
     background-color: rgba(255, 255, 255, 0.5);
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 1rem 3rem;
     width: 100%;
@@ -97,7 +98,7 @@
   }
 
   .navTitle {
-    font-size: 2.25rem;
+    font-size: 8vw;
     margin: 1rem;
   }
 }
@@ -105,9 +106,10 @@
 @media only screen and (orientation: portrait) and (width < 600px) {
   .buttonList {
     justify-content: center;
+    padding: 1rem;
   }
 
   .navButton {
-    margin: 1rem 3vmin;
+    margin: 1.5vw 3vw;
   }
 }
