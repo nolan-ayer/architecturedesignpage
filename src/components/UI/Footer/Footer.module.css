@@ -1,11 +1,11 @@
 .footer {
+  background-color: rgb(35, 35, 40);
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: rgb(35, 35, 40);
-  color: white;
-  padding: 2.5vw;
   min-height: 100vh;
+  padding: 2.5vw;
 }
 
 .footerList {
@@ -52,7 +52,7 @@
   }
   .footer {
     padding: 2.5vh;
-    height: calc(100vh - 5vh);
+    /* height: calc(100vh - 5vh); */
   }
   .footerList {
     margin: 0 5vh;

@@ -89,8 +89,18 @@
     left: 50%;
     margin: 0;
     padding: 0 1rem;
-    transform: translate(-50%, -25%);
+    transform: translate(-50%, -5%);
     width: 85%;
+  }
+
+  .bannerTextContainer > h2 {
+    font-size: 1.25em;
+    margin: 10px 0;
+  }
+
+  .bannerTextSecondary > h5 {
+    font-size: 1em;
+    margin: 10px 0;
   }
 }
 
