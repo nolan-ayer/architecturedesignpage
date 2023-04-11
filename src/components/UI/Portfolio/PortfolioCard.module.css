@@ -28,7 +28,7 @@
 .itemDescription {
   color: rgba(0, 0, 0, 0.75);
   height: 100%;
-  margin: 1rem 0 0 0;
+  margin: 0.5rem 0 0 0;
   min-height: fit-content;
   padding: 0;
   text-align: center;
@@ -75,6 +75,7 @@
   bottom: 5%;
   display: flex;
   flex-direction: column;
+  height: fit-content;
   left: 50%;
   padding: 0.75rem 1.75rem;
   position: absolute;
@@ -85,7 +86,7 @@
 .itemTitle {
   color: rgba(0, 0, 0, 0.75);
   font-family: "Bebas Neue", cursive;
-  height: 1.5vw;
+  height: fit-content;
   width: 100%;
   text-align: center;
 }
@@ -93,7 +94,6 @@
 .itemTitle__mouseOver {
   color: rgba(0, 0, 0, 1);
   font-family: "Bebas Neue", cursive;
-  height: 1.5vw;
   text-align: center;
   transition-timing-function: ease-in;
   transition: 200ms;
@@ -116,36 +116,11 @@
   .itemTextContainer {
     align-items: center;
     background-color: rgba(255, 255, 255, 1);
-    height: fit-content;
     justify-content: center;
     left: 50%;
     padding: 0.5rem 0;
     transform: translate(-50%, -10%);
     width: 90%;
-  }
-
-  .itemTitle {
-    color: rgba(0, 0, 0, 1);
-
-    text-align: center;
-  }
-
-  .itemTitle__mouseOver {
-    color: rgba(0, 0, 0, 1);
-    text-align: center;
-    width: 75%;
-  }
-
-  .itemDescription {
-    color: rgba(0, 0, 0, 1);
-    text-align: center;
-    width: 75%;
-  }
-
-  .itemDescription__mouseOver {
-    color: rgba(0, 0, 0, 1);
-    text-align: center;
-    width: 75%;
   }
 }
 
@@ -164,31 +139,24 @@
 
   .itemTextContainer {
     align-items: center;
-
-    height: fit-content;
     justify-content: center;
     left: 50%;
     padding: 0.5rem 0;
     transform: translate(-50%, -10%);
     width: 90%;
   }
+}
 
-  .itemTitle {
-    text-align: center;
-  }
-
-  .itemTitle__mouseOver {
-    text-align: center;
-    width: 75%;
-  }
-
+@media only screen and (orientation: portrait) and (width < 300px) {
   .itemDescription {
-    text-align: center;
-    width: 75%;
+    display: none;
   }
 
-  .itemDescription__mouseOver {
-    text-align: center;
-    width: 75%;
+  .itemTextContainer {
+    padding: 0.5rem 1rem;
+    width: fit-content;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 10%);
   }
 }
